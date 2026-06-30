@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐶 泡泡狗 Bubble Puppy MVP</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;  /* 添加边距 */
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        #game-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 800px;  /* 最大宽度限制 */
+            aspect-ratio: 4/3;  /* 保持比例 */
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #87CEEB;
+        }
+        #game-container {
+            width: 100%;
+            height: 100%;
+        }
+        #main-menu, #room-panel {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 40px 20px;  /* 增加内边距 */
+            box-sizing: border-box;
+        }
+        #menu-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(255,255,255,0.95);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            transition: opacity 0.3s;
+        }
+        #menu-overlay.hidden { opacity: 0; pointer-events: none; }
+        .game-title {
+            font-size: 48px;
+            color: #FF6B6B;
+            text-shadow: 3px 3px 0px #FFE66D;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .game-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .menu-btn {
+            width: 280px;
+            padding: 14px 20px;
+            margin: 8px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .menu-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+        .btn-single { background: linear-gradient(45deg, #FF6B6B, #FF8E53); }
+        .btn-local { background: linear-gradient(45deg, #4ECDC4, #44A08D); }
+        .btn-online { background: linear-gradient(45deg, #667eea, #764ba2); }
+        .btn-back { background: #999; width: 200px; font-size: 16px; }
+
+        #room-panel { display: none; flex-direction: column; align-items: center; }
+        .room-input {
+            padding: 12px 20px;
+            font-size: 20px;
+            border: 3px solid #667eea;
+            border-radius: 30px;
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            outline: none;
+            text-transform: uppercase;
+        }
+        .room-info {
+            font-size: 14px;
+            color: #666;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .status-text {
+            font-size: 16px;
+            color: #667eea;
+            margin-top: 10px;
+            min-height: 24px;
+        }
+
+        #hud {
+            position: absolute;
+            top: 0; left: 0; width: 100%;
+            display: none;
+            justify-content: space-between;
+            padding: 10px 20px;
+            pointer-events: none;
+            z-index: 50;
+        }
+        .hud-item {
+            background: rgba(0,0,0,0.5);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .hud-letters { display: flex; gap: 4px; }
+        .letter-box {
+            width: 24px; height: 24px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px; font-weight: bold;
+            background: rgba(255,255,255,0.3);
+            color: rgba(255,255,255,0.5);
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        .letter-box.collected {
+            background: #FFD700;
+            color: #333;
+            border-color: #FFA500;
+            box-shadow: 0 0 10px #FFD700;
+        }
+        .timer-warning { color: #FF4444 !important; animation: pulse 1s infinite; }
+        @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+
+        #controls-hint {
+            position: absolute;
+            bottom: 10px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            display: none;
+            z-index: 50;
+        }
+
+        #mobile-controls {
+            position: absolute;
+            bottom: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 60;
+            display: none;
+        }
+        .mobile-btn {
+            position: absolute;
+            width: 72px; height: 72px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.35);
+            border: 2px solid rgba(255,255,255,0.6);
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex; align-items: center; justify-content: center;
+            pointer-events: auto;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: none;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+            backdrop-filter: blur(2px);
+        }
+        .mobile-btn:active { background: rgba(255,255,255,0.55); transform: scale(0.95); }
+        #btn-left { bottom: 24px; left: 20px; }
+        #btn-right { bottom: 24px; left: 104px; }
+        #btn-jump { bottom: 24px; right: 104px; }
+        #btn-fire { bottom: 24px; right: 20px; font-size: 16px; }
+
+        @media (hover: none) and (pointer: coarse) {
+            #mobile-controls { display: block; }
+            #controls-hint { display: none !important; }
+        }
+    </style>
+</head>
+<body>
+    <div id="game-wrapper">
+        <div id="hud">
+            <div class="hud-item" id="score">Score: 0</div>
+            <div class="hud-item hud-letters" id="letters">
+                <div class="letter-box" id="letter-G">G</div>
+                <div class="letter-box" id="letter-O">O</div>
+                <div class="letter-box" id="letter-L">L</div>
+                <div class="letter-box" id="letter-D">D</div>
+                <div class="letter-box" id="letter-E">E</div>
+                <div class="letter-box" id="letter-N">N</div>
+            </div>
+            <div class="hud-item" id="timer">⏰ 120</div>
+        </div>
+
+        <div id="controls-hint"></div>
+
+        <div id="mobile-controls">
+            <div id="btn-left" class="mobile-btn">←</div>
+            <div id="btn-right" class="mobile-btn">→</div>
+            <div id="btn-jump" class="mobile-btn">↑</div>
+            <div id="btn-fire" class="mobile-btn">泡泡</div>
+        </div>
+
+        <div id="menu-overlay">
+            <div id="main-menu">
+                <div class="game-title">🐶 泡泡狗</div>
+                <div class="game-subtitle">Bubble Puppy MVP</div>
+                <button class="menu-btn btn-single" onclick="startGame('single')">🎮 单人模式</button>
+                <button class="menu-btn btn-local" onclick="startGame('local')">👥 本地双人</button>
+                <button class="menu-btn btn-online" onclick="showRoomPanel()">🌐 联网对战</button>
+                <div style="margin-top:20px; font-size:13px; color:#999;">
+                    Cici & 熊熊 | 120秒限时 | 收集GOLDEN字母
+                </div>
+            </div>
+
+            <div id="room-panel">
+                <div class="game-title" style="font-size:36px;">🌐 联网对战</div>
+                <div class="room-info">
+                    创建房间邀请好友，或输入房间号加入
+                </div>
+                <button class="menu-btn btn-online" onclick="createRoom()">➕ 创建房间</button>
+                <div style="margin:10px 0; color:#999;">— 或 —</div>
+                <input type="text" class="room-input" id="room-input" placeholder="房间号" maxlength="6">
+                <button class="menu-btn btn-online" onclick="joinRoom()">🔑 加入房间</button>
+                <div class="status-text" id="room-status"></div>
+                <button class="menu-btn btn-back" onclick="showMainMenu()">← 返回</button>
+            </div>
+        </div>
+
+        <div id="game-container"></div>
+    </div>
+
+    <script src="js/network.js"></script>
+    <script src="js/game.js"></script>
+    <script>
+        let gameInstance = null;
+        let currentMode = 'single';
+
+        function showRoomPanel() {
+            document.getElementById('main-menu').style.display = 'none';
+            document.getElementById('room-panel').style.display = 'flex';
+        }
+        function showMainMenu() {
+            document.getElementById('room-panel').style.display = 'none';
+            document.getElementById('main-menu').style.display = 'block';
+            document.getElementById('room-status').textContent = '';
+        }
+
+        function startGame(mode) {
+            currentMode = mode;
+            document.getElementById('menu-overlay').classList.add('hidden');
+            document.getElementById('hud').style.display = 'flex';
+            document.getElementById('controls-hint').style.display = 'block';
+
+            let hint = '';
+            if (mode === 'single') hint = 'Cici: 方向键移动 | 空格吹泡泡 | 熊熊自动跟随';
+            else if (mode === 'local') hint = 'Cici: 方向键+空格 | 熊熊: WASD+Shift';
+            else hint = '联网模式: 方向键+空格';
+            document.getElementById('controls-hint').textContent = hint;
+
+            if (gameInstance) {
+                gameInstance.scene.getScene('GameScene').scene.restart({ mode: mode });
+            } else {
+                initGame(mode);
+            }
+        }
+
+        function createRoom() {
+            networkManager.createRoom((roomId) => {
+                document.getElementById('room-status').innerHTML =
+                    `房间号: <b style="font-size:24px; color:#667eea;">${roomId}</b><br>等待好友加入...`;
+            });
+        }
+
+        function joinRoom() {
+            const roomId = document.getElementById('room-input').value.trim().toUpperCase();
+            if (!roomId) return;
+            networkManager.joinRoom(roomId, (success) => {
+                if (success) {
+                    document.getElementById('room-status').textContent = '已加入，等待房主开始...';
+                } else {
+                    document.getElementById('room-status').textContent = '加入失败，请检查房间号';
+                }
+            });
+        }
+
+        // 网络事件监听
+        networkManager.onGameStart = () => {
+            startGame('online');
+        };
+
+        networkManager.onPlayerDisconnected = () => {
+            alert('对方断开连接，返回菜单');
+            location.reload();
+        };
+    </script>
+</body>
+</html>

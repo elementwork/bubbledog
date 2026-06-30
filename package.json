@@ -1,0 +1,10 @@
+{
+  "name": "bubble-puppy-mvp",
+  "version": "1.0.0",
+  "description": "泡泡狗 Bubble Puppy MVP - 单人+联网双人",
+  "scripts": {
+    "install:all": "cd server && npm install",
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev"
+  }
+}

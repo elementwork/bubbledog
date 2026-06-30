@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules/
+server/node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/

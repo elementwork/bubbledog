@@ -1,0 +1,11127 @@
+[
+  {
+    "name": "第1关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 3,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 71,
+        "x2": 228,
+        "y": 458
+      },
+      {
+        "type": "range",
+        "x1": 556,
+        "x2": 715,
+        "y": 461
+      },
+      {
+        "type": "range",
+        "x1": 312,
+        "x2": 491,
+        "y": 315
+      },
+      {
+        "type": "single",
+        "x": 159,
+        "y": 191
+      },
+      {
+        "type": "single",
+        "x": 655,
+        "y": 211
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 120
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 153,
+        "y": 151
+      },
+      {
+        "x": 640,
+        "y": 152
+      },
+      {
+        "x": 396,
+        "y": 87
+      },
+      {
+        "x": 106,
+        "y": 419
+      },
+      {
+        "x": 690,
+        "y": 417
+      },
+      {
+        "x": 396,
+        "y": 290
+      }
+    ],
+    "timeLimit": 120
+  },
+  {
+    "name": "第2关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 3,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 55,
+        "x2": 201,
+        "y": 490
+      },
+      {
+        "type": "range",
+        "x1": 602,
+        "x2": 756,
+        "y": 475
+      },
+      {
+        "type": "range",
+        "x1": 238,
+        "x2": 562,
+        "y": 376
+      },
+      {
+        "type": "single",
+        "x": 110,
+        "y": 273
+      },
+      {
+        "type": "single",
+        "x": 698,
+        "y": 281
+      },
+      {
+        "type": "single",
+        "x": 392,
+        "y": 176
+      },
+      {
+        "type": "single",
+        "x": 212,
+        "y": 114
+      },
+      {
+        "type": "single",
+        "x": 591,
+        "y": 118
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 92,
+        "y": 242
+      },
+      {
+        "x": 693,
+        "y": 241
+      },
+      {
+        "x": 401,
+        "y": 149
+      },
+      {
+        "x": 78,
+        "y": 431
+      },
+      {
+        "x": 724,
+        "y": 447
+      },
+      {
+        "x": 393,
+        "y": 342
+      }
+    ],
+    "timeLimit": 110
+  },
+  {
+    "name": "第3关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 3,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 105,
+        "x2": 297,
+        "y": 490
+      },
+      {
+        "type": "range",
+        "x1": 507,
+        "x2": 699,
+        "y": 508
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 426
+      },
+      {
+        "type": "range",
+        "x1": 140,
+        "x2": 339,
+        "y": 350
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 662,
+        "y": 349
+      },
+      {
+        "type": "single",
+        "x": 70,
+        "y": 237
+      },
+      {
+        "type": "single",
+        "x": 711,
+        "y": 235
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 160
+      },
+      {
+        "type": "single",
+        "x": 258,
+        "y": 102
+      },
+      {
+        "type": "single",
+        "x": 543,
+        "y": 99
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 81,
+        "y": 201
+      },
+      {
+        "x": 716,
+        "y": 198
+      },
+      {
+        "x": 410,
+        "y": 112
+      },
+      {
+        "x": 209,
+        "y": 470
+      },
+      {
+        "x": 595,
+        "y": 467
+      },
+      {
+        "x": 397,
+        "y": 295
+      }
+    ],
+    "timeLimit": 100
+  },
+  {
+    "name": "第4关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat"
+    ],
+    "enemyCount": 4,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 120,
+        "y": 502
+      },
+      {
+        "type": "single",
+        "x": 688,
+        "y": 496
+      },
+      {
+        "type": "range",
+        "x1": 255,
+        "x2": 545,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 78,
+        "y": 389
+      },
+      {
+        "type": "single",
+        "x": 732,
+        "y": 392
+      },
+      {
+        "type": "range",
+        "x1": 195,
+        "x2": 589,
+        "y": 289
+      },
+      {
+        "type": "single",
+        "x": 150,
+        "y": 198
+      },
+      {
+        "type": "single",
+        "x": 640,
+        "y": 196
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 114
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 150,
+        "y": 156
+      },
+      {
+        "x": 660,
+        "y": 165
+      },
+      {
+        "x": 402,
+        "y": 90
+      },
+      {
+        "x": 124,
+        "y": 334
+      },
+      {
+        "x": 678,
+        "y": 334
+      },
+      {
+        "x": 397,
+        "y": 267
+      }
+    ],
+    "timeLimit": 100
+  },
+  {
+    "name": "第5关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 5,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 96,
+        "y": 525
+      },
+      {
+        "type": "single",
+        "x": 706,
+        "y": 531
+      },
+      {
+        "type": "single",
+        "x": 256,
+        "y": 461
+      },
+      {
+        "type": "single",
+        "x": 549,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 392,
+        "y": 395
+      },
+      {
+        "type": "single",
+        "x": 153,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 662,
+        "y": 310
+      },
+      {
+        "type": "single",
+        "x": 291,
+        "y": 229
+      },
+      {
+        "type": "single",
+        "x": 508,
+        "y": 232
+      },
+      {
+        "type": "single",
+        "x": 409,
+        "y": 153
+      },
+      {
+        "type": "single",
+        "x": 207,
+        "y": 101
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 90
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 202,
+        "y": 69
+      },
+      {
+        "x": 604,
+        "y": 66
+      },
+      {
+        "x": 398,
+        "y": 127
+      },
+      {
+        "x": 140,
+        "y": 273
+      },
+      {
+        "x": 657,
+        "y": 278
+      },
+      {
+        "x": 410,
+        "y": 360
+      }
+    ],
+    "timeLimit": 90
+  },
+  {
+    "name": "第6关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_owl"
+    ],
+    "enemyCount": 6,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 201,
+        "y": 511
+      },
+      {
+        "type": "range",
+        "x1": 602,
+        "x2": 738,
+        "y": 513
+      },
+      {
+        "type": "range",
+        "x1": 211,
+        "x2": 596,
+        "y": 451
+      },
+      {
+        "type": "range",
+        "x1": 112,
+        "x2": 293,
+        "y": 364
+      },
+      {
+        "type": "range",
+        "x1": 491,
+        "x2": 708,
+        "y": 364
+      },
+      {
+        "type": "range",
+        "x1": 258,
+        "x2": 554,
+        "y": 277
+      },
+      {
+        "type": "range",
+        "x1": 144,
+        "x2": 342,
+        "y": 207
+      },
+      {
+        "type": "range",
+        "x1": 462,
+        "x2": 643,
+        "y": 199
+      },
+      {
+        "type": "single",
+        "x": 412,
+        "y": 125
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 131,
+        "y": 310
+      },
+      {
+        "x": 684,
+        "y": 320
+      },
+      {
+        "x": 405,
+        "y": 70
+      },
+      {
+        "x": 393,
+        "y": 401
+      },
+      {
+        "x": 249,
+        "y": 157
+      },
+      {
+        "x": 541,
+        "y": 157
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第7关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee"
+    ],
+    "enemyCount": 4,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 140,
+        "y": 526
+      },
+      {
+        "type": "single",
+        "x": 411,
+        "y": 470
+      },
+      {
+        "type": "single",
+        "x": 640,
+        "y": 523
+      },
+      {
+        "type": "single",
+        "x": 255,
+        "y": 412
+      },
+      {
+        "type": "single",
+        "x": 542,
+        "y": 412
+      },
+      {
+        "type": "single",
+        "x": 159,
+        "y": 312
+      },
+      {
+        "type": "single",
+        "x": 655,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 296,
+        "y": 233
+      },
+      {
+        "type": "single",
+        "x": 507,
+        "y": 244
+      },
+      {
+        "type": "single",
+        "x": 194,
+        "y": 161
+      },
+      {
+        "type": "single",
+        "x": 612,
+        "y": 165
+      },
+      {
+        "type": "single",
+        "x": 410,
+        "y": 111
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 396,
+        "y": 59
+      },
+      {
+        "x": 202,
+        "y": 130
+      },
+      {
+        "x": 601,
+        "y": 124
+      },
+      {
+        "x": 156,
+        "y": 284
+      },
+      {
+        "x": 643,
+        "y": 277
+      },
+      {
+        "x": 397,
+        "y": 432
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第8关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 5,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 38,
+        "x2": 256,
+        "y": 498
+      },
+      {
+        "type": "range",
+        "x1": 545,
+        "x2": 756,
+        "y": 505
+      },
+      {
+        "type": "single",
+        "x": 388,
+        "y": 455
+      },
+      {
+        "type": "range",
+        "x1": 110,
+        "x2": 358,
+        "y": 370
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 690,
+        "y": 369
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 289
+      },
+      {
+        "type": "range",
+        "x1": 154,
+        "x2": 295,
+        "y": 210
+      },
+      {
+        "type": "range",
+        "x1": 509,
+        "x2": 653,
+        "y": 216
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 134
+      },
+      {
+        "type": "single",
+        "x": 211,
+        "y": 72
+      },
+      {
+        "type": "single",
+        "x": 606,
+        "y": 86
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 205,
+        "y": 37
+      },
+      {
+        "x": 605,
+        "y": 43
+      },
+      {
+        "x": 396,
+        "y": 93
+      },
+      {
+        "x": 218,
+        "y": 183
+      },
+      {
+        "x": 576,
+        "y": 183
+      },
+      {
+        "x": 403,
+        "y": 264
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第9关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hamster",
+      "enemy_cat"
+    ],
+    "enemyCount": 7,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 89,
+        "y": 551
+      },
+      {
+        "type": "single",
+        "x": 308,
+        "y": 509
+      },
+      {
+        "type": "single",
+        "x": 491,
+        "y": 508
+      },
+      {
+        "type": "single",
+        "x": 700,
+        "y": 529
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 431
+      },
+      {
+        "type": "single",
+        "x": 595,
+        "y": 411
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 374
+      },
+      {
+        "type": "single",
+        "x": 102,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 701,
+        "y": 312
+      },
+      {
+        "type": "single",
+        "x": 296,
+        "y": 253
+      },
+      {
+        "type": "single",
+        "x": 495,
+        "y": 262
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 170
+      },
+      {
+        "type": "single",
+        "x": 191,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 608,
+        "y": 109
+      },
+      {
+        "type": "single",
+        "x": 388,
+        "y": 65
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 392,
+        "y": 17
+      },
+      {
+        "x": 195,
+        "y": 83
+      },
+      {
+        "x": 605,
+        "y": 85
+      },
+      {
+        "x": 96,
+        "y": 282
+      },
+      {
+        "x": 691,
+        "y": 275
+      },
+      {
+        "x": 402,
+        "y": 330
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第10关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee"
+    ],
+    "enemyCount": 6,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 153,
+        "y": 521
+      },
+      {
+        "type": "range",
+        "x1": 652,
+        "x2": 761,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 410,
+        "y": 506
+      },
+      {
+        "type": "range",
+        "x1": 154,
+        "x2": 343,
+        "y": 451
+      },
+      {
+        "type": "range",
+        "x1": 448,
+        "x2": 645,
+        "y": 435
+      },
+      {
+        "type": "single",
+        "x": 407,
+        "y": 370
+      },
+      {
+        "type": "range",
+        "x1": 90,
+        "x2": 299,
+        "y": 326
+      },
+      {
+        "type": "range",
+        "x1": 490,
+        "x2": 707,
+        "y": 310
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 264
+      },
+      {
+        "type": "range",
+        "x1": 194,
+        "x2": 390,
+        "y": 205
+      },
+      {
+        "type": "range",
+        "x1": 391,
+        "x2": 594,
+        "y": 205
+      },
+      {
+        "type": "single",
+        "x": 408,
+        "y": 111
+      },
+      {
+        "type": "single",
+        "x": 210,
+        "y": 71
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 76
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 393,
+        "y": 88
+      },
+      {
+        "x": 197,
+        "y": 48
+      },
+      {
+        "x": 609,
+        "y": 31
+      },
+      {
+        "x": 209,
+        "y": 272
+      },
+      {
+        "x": 603,
+        "y": 288
+      },
+      {
+        "x": 408,
+        "y": 226
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第11关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 5,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 77,
+        "x2": 235,
+        "y": 449
+      },
+      {
+        "type": "range",
+        "x1": 571,
+        "x2": 719,
+        "y": 460
+      },
+      {
+        "type": "range",
+        "x1": 317,
+        "x2": 481,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 160,
+        "y": 193
+      },
+      {
+        "type": "single",
+        "x": 648,
+        "y": 209
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 133
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 142,
+        "y": 150
+      },
+      {
+        "x": 654,
+        "y": 169
+      },
+      {
+        "x": 408,
+        "y": 83
+      },
+      {
+        "x": 92,
+        "y": 417
+      },
+      {
+        "x": 696,
+        "y": 416
+      },
+      {
+        "x": 398,
+        "y": 274
+      }
+    ],
+    "timeLimit": 115
+  },
+  {
+    "name": "第12关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 5,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 41,
+        "x2": 196,
+        "y": 480
+      },
+      {
+        "type": "range",
+        "x1": 598,
+        "x2": 744,
+        "y": 480
+      },
+      {
+        "type": "range",
+        "x1": 256,
+        "x2": 561,
+        "y": 383
+      },
+      {
+        "type": "single",
+        "x": 108,
+        "y": 278
+      },
+      {
+        "type": "single",
+        "x": 705,
+        "y": 289
+      },
+      {
+        "type": "single",
+        "x": 410,
+        "y": 169
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 126
+      },
+      {
+        "type": "single",
+        "x": 592,
+        "y": 130
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 95,
+        "y": 239
+      },
+      {
+        "x": 694,
+        "y": 234
+      },
+      {
+        "x": 408,
+        "y": 135
+      },
+      {
+        "x": 79,
+        "y": 440
+      },
+      {
+        "x": 717,
+        "y": 441
+      },
+      {
+        "x": 397,
+        "y": 339
+      }
+    ],
+    "timeLimit": 105
+  },
+  {
+    "name": "第13关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl"
+    ],
+    "enemyCount": 5,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 104,
+        "x2": 297,
+        "y": 505
+      },
+      {
+        "type": "range",
+        "x1": 491,
+        "x2": 709,
+        "y": 490
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 422
+      },
+      {
+        "type": "range",
+        "x1": 139,
+        "x2": 349,
+        "y": 330
+      },
+      {
+        "type": "range",
+        "x1": 459,
+        "x2": 647,
+        "y": 333
+      },
+      {
+        "type": "single",
+        "x": 83,
+        "y": 234
+      },
+      {
+        "type": "single",
+        "x": 731,
+        "y": 246
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 162
+      },
+      {
+        "type": "single",
+        "x": 242,
+        "y": 89
+      },
+      {
+        "type": "single",
+        "x": 561,
+        "y": 91
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 75,
+        "y": 208
+      },
+      {
+        "x": 712,
+        "y": 202
+      },
+      {
+        "x": 409,
+        "y": 128
+      },
+      {
+        "x": 195,
+        "y": 464
+      },
+      {
+        "x": 595,
+        "y": 452
+      },
+      {
+        "x": 400,
+        "y": 302
+      }
+    ],
+    "timeLimit": 95
+  },
+  {
+    "name": "第14关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 6,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 120,
+        "y": 490
+      },
+      {
+        "type": "single",
+        "x": 690,
+        "y": 495
+      },
+      {
+        "type": "range",
+        "x1": 260,
+        "x2": 542,
+        "y": 446
+      },
+      {
+        "type": "single",
+        "x": 86,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 728,
+        "y": 382
+      },
+      {
+        "type": "range",
+        "x1": 196,
+        "x2": 594,
+        "y": 293
+      },
+      {
+        "type": "single",
+        "x": 152,
+        "y": 194
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 189
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 119
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 148,
+        "y": 159
+      },
+      {
+        "x": 646,
+        "y": 154
+      },
+      {
+        "x": 403,
+        "y": 72
+      },
+      {
+        "x": 126,
+        "y": 338
+      },
+      {
+        "x": 677,
+        "y": 345
+      },
+      {
+        "x": 402,
+        "y": 260
+      }
+    ],
+    "timeLimit": 95
+  },
+  {
+    "name": "第15关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 8,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 96,
+        "y": 516
+      },
+      {
+        "type": "single",
+        "x": 710,
+        "y": 509
+      },
+      {
+        "type": "single",
+        "x": 251,
+        "y": 455
+      },
+      {
+        "type": "single",
+        "x": 547,
+        "y": 459
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 391
+      },
+      {
+        "type": "single",
+        "x": 159,
+        "y": 320
+      },
+      {
+        "type": "single",
+        "x": 651,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 306,
+        "y": 250
+      },
+      {
+        "type": "single",
+        "x": 489,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 152
+      },
+      {
+        "type": "single",
+        "x": 207,
+        "y": 94
+      },
+      {
+        "type": "single",
+        "x": 590,
+        "y": 97
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 194,
+        "y": 64
+      },
+      {
+        "x": 602,
+        "y": 61
+      },
+      {
+        "x": 404,
+        "y": 127
+      },
+      {
+        "x": 144,
+        "y": 283
+      },
+      {
+        "x": 659,
+        "y": 277
+      },
+      {
+        "x": 399,
+        "y": 352
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第16关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_cat"
+    ],
+    "enemyCount": 9,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 52,
+        "x2": 189,
+        "y": 531
+      },
+      {
+        "type": "range",
+        "x1": 606,
+        "x2": 760,
+        "y": 525
+      },
+      {
+        "type": "range",
+        "x1": 195,
+        "x2": 600,
+        "y": 450
+      },
+      {
+        "type": "range",
+        "x1": 91,
+        "x2": 310,
+        "y": 362
+      },
+      {
+        "type": "range",
+        "x1": 508,
+        "x2": 699,
+        "y": 359
+      },
+      {
+        "type": "range",
+        "x1": 242,
+        "x2": 548,
+        "y": 290
+      },
+      {
+        "type": "range",
+        "x1": 148,
+        "x2": 360,
+        "y": 205
+      },
+      {
+        "type": "range",
+        "x1": 449,
+        "x2": 651,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 131
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 133,
+        "y": 315
+      },
+      {
+        "x": 672,
+        "y": 324
+      },
+      {
+        "x": 403,
+        "y": 76
+      },
+      {
+        "x": 409,
+        "y": 400
+      },
+      {
+        "x": 253,
+        "y": 168
+      },
+      {
+        "x": 541,
+        "y": 160
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第17关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_owl"
+    ],
+    "enemyCount": 7,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 145,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 407,
+        "y": 482
+      },
+      {
+        "type": "single",
+        "x": 659,
+        "y": 528
+      },
+      {
+        "type": "single",
+        "x": 253,
+        "y": 399
+      },
+      {
+        "type": "single",
+        "x": 553,
+        "y": 403
+      },
+      {
+        "type": "single",
+        "x": 145,
+        "y": 330
+      },
+      {
+        "type": "single",
+        "x": 654,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 310,
+        "y": 234
+      },
+      {
+        "type": "single",
+        "x": 498,
+        "y": 231
+      },
+      {
+        "type": "single",
+        "x": 210,
+        "y": 165
+      },
+      {
+        "type": "single",
+        "x": 608,
+        "y": 169
+      },
+      {
+        "type": "single",
+        "x": 391,
+        "y": 99
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 398,
+        "y": 60
+      },
+      {
+        "x": 198,
+        "y": 117
+      },
+      {
+        "x": 595,
+        "y": 111
+      },
+      {
+        "x": 142,
+        "y": 278
+      },
+      {
+        "x": 656,
+        "y": 273
+      },
+      {
+        "x": 405,
+        "y": 444
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第18关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 8,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 57,
+        "x2": 245,
+        "y": 509
+      },
+      {
+        "type": "range",
+        "x1": 561,
+        "x2": 751,
+        "y": 511
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 464
+      },
+      {
+        "type": "range",
+        "x1": 93,
+        "x2": 359,
+        "y": 376
+      },
+      {
+        "type": "range",
+        "x1": 439,
+        "x2": 692,
+        "y": 391
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 302
+      },
+      {
+        "type": "range",
+        "x1": 161,
+        "x2": 305,
+        "y": 214
+      },
+      {
+        "type": "range",
+        "x1": 490,
+        "x2": 656,
+        "y": 223
+      },
+      {
+        "type": "single",
+        "x": 392,
+        "y": 136
+      },
+      {
+        "type": "single",
+        "x": 193,
+        "y": 83
+      },
+      {
+        "type": "single",
+        "x": 610,
+        "y": 83
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 207,
+        "y": 48
+      },
+      {
+        "x": 601,
+        "y": 45
+      },
+      {
+        "x": 407,
+        "y": 104
+      },
+      {
+        "x": 233,
+        "y": 185
+      },
+      {
+        "x": 571,
+        "y": 186
+      },
+      {
+        "x": 405,
+        "y": 259
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第19关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 10,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 109,
+        "y": 536
+      },
+      {
+        "type": "single",
+        "x": 305,
+        "y": 497
+      },
+      {
+        "type": "single",
+        "x": 509,
+        "y": 504
+      },
+      {
+        "type": "single",
+        "x": 697,
+        "y": 536
+      },
+      {
+        "type": "single",
+        "x": 191,
+        "y": 423
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 431
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 376
+      },
+      {
+        "type": "single",
+        "x": 99,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 691,
+        "y": 326
+      },
+      {
+        "type": "single",
+        "x": 293,
+        "y": 253
+      },
+      {
+        "type": "single",
+        "x": 501,
+        "y": 256
+      },
+      {
+        "type": "single",
+        "x": 393,
+        "y": 191
+      },
+      {
+        "type": "single",
+        "x": 195,
+        "y": 131
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 111
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 62
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 408,
+        "y": 25
+      },
+      {
+        "x": 204,
+        "y": 72
+      },
+      {
+        "x": 597,
+        "y": 84
+      },
+      {
+        "x": 103,
+        "y": 289
+      },
+      {
+        "x": 691,
+        "y": 289
+      },
+      {
+        "x": 403,
+        "y": 346
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第20关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 9,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 51,
+        "x2": 149,
+        "y": 510
+      },
+      {
+        "type": "range",
+        "x1": 653,
+        "x2": 757,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 409,
+        "y": 507
+      },
+      {
+        "type": "range",
+        "x1": 155,
+        "x2": 347,
+        "y": 437
+      },
+      {
+        "type": "range",
+        "x1": 453,
+        "x2": 655,
+        "y": 438
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 370
+      },
+      {
+        "type": "range",
+        "x1": 102,
+        "x2": 295,
+        "y": 320
+      },
+      {
+        "type": "range",
+        "x1": 494,
+        "x2": 709,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 390,
+        "y": 267
+      },
+      {
+        "type": "range",
+        "x1": 208,
+        "x2": 408,
+        "y": 202
+      },
+      {
+        "type": "range",
+        "x1": 392,
+        "x2": 610,
+        "y": 190
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 195,
+        "y": 84
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 71
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 403,
+        "y": 81
+      },
+      {
+        "x": 197,
+        "y": 45
+      },
+      {
+        "x": 601,
+        "y": 41
+      },
+      {
+        "x": 203,
+        "y": 279
+      },
+      {
+        "x": 604,
+        "y": 279
+      },
+      {
+        "x": 393,
+        "y": 226
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第21关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 8,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 87,
+        "x2": 231,
+        "y": 440
+      },
+      {
+        "type": "range",
+        "x1": 557,
+        "x2": 730,
+        "y": 451
+      },
+      {
+        "type": "range",
+        "x1": 330,
+        "x2": 471,
+        "y": 312
+      },
+      {
+        "type": "single",
+        "x": 147,
+        "y": 190
+      },
+      {
+        "type": "single",
+        "x": 640,
+        "y": 196
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 139
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 148,
+        "y": 155
+      },
+      {
+        "x": 656,
+        "y": 154
+      },
+      {
+        "x": 409,
+        "y": 87
+      },
+      {
+        "x": 105,
+        "y": 409
+      },
+      {
+        "x": 702,
+        "y": 406
+      },
+      {
+        "x": 394,
+        "y": 276
+      }
+    ],
+    "timeLimit": 110
+  },
+  {
+    "name": "第22关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 8,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 43,
+        "x2": 208,
+        "y": 479
+      },
+      {
+        "type": "range",
+        "x1": 599,
+        "x2": 758,
+        "y": 470
+      },
+      {
+        "type": "range",
+        "x1": 252,
+        "x2": 546,
+        "y": 382
+      },
+      {
+        "type": "single",
+        "x": 108,
+        "y": 272
+      },
+      {
+        "type": "single",
+        "x": 697,
+        "y": 290
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 173
+      },
+      {
+        "type": "single",
+        "x": 193,
+        "y": 129
+      },
+      {
+        "type": "single",
+        "x": 591,
+        "y": 128
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 102,
+        "y": 248
+      },
+      {
+        "x": 704,
+        "y": 242
+      },
+      {
+        "x": 393,
+        "y": 147
+      },
+      {
+        "x": 81,
+        "y": 431
+      },
+      {
+        "x": 724,
+        "y": 446
+      },
+      {
+        "x": 394,
+        "y": 344
+      }
+    ],
+    "timeLimit": 100
+  },
+  {
+    "name": "第23关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 8,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 110,
+        "x2": 304,
+        "y": 501
+      },
+      {
+        "type": "range",
+        "x1": 503,
+        "x2": 695,
+        "y": 494
+      },
+      {
+        "type": "single",
+        "x": 410,
+        "y": 426
+      },
+      {
+        "type": "range",
+        "x1": 159,
+        "x2": 357,
+        "y": 338
+      },
+      {
+        "type": "range",
+        "x1": 454,
+        "x2": 653,
+        "y": 345
+      },
+      {
+        "type": "single",
+        "x": 78,
+        "y": 248
+      },
+      {
+        "type": "single",
+        "x": 717,
+        "y": 240
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 152
+      },
+      {
+        "type": "single",
+        "x": 247,
+        "y": 104
+      },
+      {
+        "type": "single",
+        "x": 558,
+        "y": 104
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 83,
+        "y": 201
+      },
+      {
+        "x": 711,
+        "y": 206
+      },
+      {
+        "x": 401,
+        "y": 116
+      },
+      {
+        "x": 206,
+        "y": 457
+      },
+      {
+        "x": 602,
+        "y": 459
+      },
+      {
+        "x": 401,
+        "y": 299
+      }
+    ],
+    "timeLimit": 90
+  },
+  {
+    "name": "第24关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl"
+    ],
+    "enemyCount": 9,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 118,
+        "y": 509
+      },
+      {
+        "type": "single",
+        "x": 670,
+        "y": 507
+      },
+      {
+        "type": "range",
+        "x1": 246,
+        "x2": 542,
+        "y": 456
+      },
+      {
+        "type": "single",
+        "x": 83,
+        "y": 377
+      },
+      {
+        "type": "single",
+        "x": 727,
+        "y": 385
+      },
+      {
+        "type": "range",
+        "x1": 205,
+        "x2": 610,
+        "y": 297
+      },
+      {
+        "type": "single",
+        "x": 154,
+        "y": 205
+      },
+      {
+        "type": "single",
+        "x": 642,
+        "y": 190
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 119
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 154,
+        "y": 159
+      },
+      {
+        "x": 651,
+        "y": 163
+      },
+      {
+        "x": 407,
+        "y": 88
+      },
+      {
+        "x": 123,
+        "y": 345
+      },
+      {
+        "x": 682,
+        "y": 343
+      },
+      {
+        "x": 406,
+        "y": 260
+      }
+    ],
+    "timeLimit": 90
+  },
+  {
+    "name": "第25关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 10,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 98,
+        "y": 519
+      },
+      {
+        "type": "single",
+        "x": 693,
+        "y": 517
+      },
+      {
+        "type": "single",
+        "x": 250,
+        "y": 456
+      },
+      {
+        "type": "single",
+        "x": 557,
+        "y": 453
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 395
+      },
+      {
+        "type": "single",
+        "x": 155,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 658,
+        "y": 318
+      },
+      {
+        "type": "single",
+        "x": 309,
+        "y": 246
+      },
+      {
+        "type": "single",
+        "x": 493,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 156
+      },
+      {
+        "type": "single",
+        "x": 201,
+        "y": 97
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 95
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 192,
+        "y": 56
+      },
+      {
+        "x": 600,
+        "y": 53
+      },
+      {
+        "x": 393,
+        "y": 121
+      },
+      {
+        "x": 146,
+        "y": 287
+      },
+      {
+        "x": 645,
+        "y": 272
+      },
+      {
+        "x": 401,
+        "y": 367
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第26关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 11,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 200,
+        "y": 525
+      },
+      {
+        "type": "range",
+        "x1": 591,
+        "x2": 748,
+        "y": 515
+      },
+      {
+        "type": "range",
+        "x1": 193,
+        "x2": 592,
+        "y": 445
+      },
+      {
+        "type": "range",
+        "x1": 105,
+        "x2": 292,
+        "y": 362
+      },
+      {
+        "type": "range",
+        "x1": 510,
+        "x2": 691,
+        "y": 368
+      },
+      {
+        "type": "range",
+        "x1": 244,
+        "x2": 558,
+        "y": 274
+      },
+      {
+        "type": "range",
+        "x1": 142,
+        "x2": 347,
+        "y": 199
+      },
+      {
+        "type": "range",
+        "x1": 457,
+        "x2": 653,
+        "y": 193
+      },
+      {
+        "type": "single",
+        "x": 409,
+        "y": 129
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 124,
+        "y": 328
+      },
+      {
+        "x": 679,
+        "y": 326
+      },
+      {
+        "x": 406,
+        "y": 81
+      },
+      {
+        "x": 405,
+        "y": 401
+      },
+      {
+        "x": 243,
+        "y": 155
+      },
+      {
+        "x": 548,
+        "y": 158
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第27关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster"
+    ],
+    "enemyCount": 9,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 142,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 475
+      },
+      {
+        "type": "single",
+        "x": 657,
+        "y": 515
+      },
+      {
+        "type": "single",
+        "x": 245,
+        "y": 392
+      },
+      {
+        "type": "single",
+        "x": 553,
+        "y": 390
+      },
+      {
+        "type": "single",
+        "x": 159,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 649,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 297,
+        "y": 231
+      },
+      {
+        "type": "single",
+        "x": 499,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 192,
+        "y": 164
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 157
+      },
+      {
+        "type": "single",
+        "x": 408,
+        "y": 110
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 398,
+        "y": 65
+      },
+      {
+        "x": 195,
+        "y": 119
+      },
+      {
+        "x": 596,
+        "y": 120
+      },
+      {
+        "x": 146,
+        "y": 274
+      },
+      {
+        "x": 643,
+        "y": 277
+      },
+      {
+        "x": 401,
+        "y": 441
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第28关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 10,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 43,
+        "x2": 254,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 552,
+        "x2": 748,
+        "y": 499
+      },
+      {
+        "type": "single",
+        "x": 407,
+        "y": 466
+      },
+      {
+        "type": "range",
+        "x1": 104,
+        "x2": 342,
+        "y": 385
+      },
+      {
+        "type": "range",
+        "x1": 441,
+        "x2": 703,
+        "y": 389
+      },
+      {
+        "type": "single",
+        "x": 409,
+        "y": 300
+      },
+      {
+        "type": "range",
+        "x1": 140,
+        "x2": 292,
+        "y": 218
+      },
+      {
+        "type": "range",
+        "x1": 508,
+        "x2": 658,
+        "y": 217
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 130
+      },
+      {
+        "type": "single",
+        "x": 191,
+        "y": 88
+      },
+      {
+        "type": "single",
+        "x": 605,
+        "y": 75
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 208,
+        "y": 46
+      },
+      {
+        "x": 600,
+        "y": 37
+      },
+      {
+        "x": 405,
+        "y": 107
+      },
+      {
+        "x": 219,
+        "y": 187
+      },
+      {
+        "x": 578,
+        "y": 185
+      },
+      {
+        "x": 402,
+        "y": 262
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第29关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat"
+    ],
+    "enemyCount": 12,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 95,
+        "y": 533
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 500
+      },
+      {
+        "type": "single",
+        "x": 499,
+        "y": 505
+      },
+      {
+        "type": "single",
+        "x": 707,
+        "y": 542
+      },
+      {
+        "type": "single",
+        "x": 204,
+        "y": 411
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 412
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 378
+      },
+      {
+        "type": "single",
+        "x": 102,
+        "y": 313
+      },
+      {
+        "type": "single",
+        "x": 690,
+        "y": 326
+      },
+      {
+        "type": "single",
+        "x": 304,
+        "y": 267
+      },
+      {
+        "type": "single",
+        "x": 491,
+        "y": 263
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 176
+      },
+      {
+        "type": "single",
+        "x": 209,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 610,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 391,
+        "y": 64
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 398,
+        "y": 20
+      },
+      {
+        "x": 196,
+        "y": 81
+      },
+      {
+        "x": 606,
+        "y": 87
+      },
+      {
+        "x": 95,
+        "y": 272
+      },
+      {
+        "x": 699,
+        "y": 277
+      },
+      {
+        "x": 401,
+        "y": 332
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第30关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 12,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 143,
+        "y": 528
+      },
+      {
+        "type": "range",
+        "x1": 644,
+        "x2": 755,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 494
+      },
+      {
+        "type": "range",
+        "x1": 150,
+        "x2": 357,
+        "y": 446
+      },
+      {
+        "type": "range",
+        "x1": 454,
+        "x2": 656,
+        "y": 439
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 386
+      },
+      {
+        "type": "range",
+        "x1": 108,
+        "x2": 295,
+        "y": 325
+      },
+      {
+        "type": "range",
+        "x1": 497,
+        "x2": 707,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 393,
+        "y": 255
+      },
+      {
+        "type": "range",
+        "x1": 204,
+        "x2": 401,
+        "y": 199
+      },
+      {
+        "type": "range",
+        "x1": 399,
+        "x2": 591,
+        "y": 207
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 120
+      },
+      {
+        "type": "single",
+        "x": 209,
+        "y": 89
+      },
+      {
+        "type": "single",
+        "x": 595,
+        "y": 86
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 406,
+        "y": 87
+      },
+      {
+        "x": 203,
+        "y": 42
+      },
+      {
+        "x": 604,
+        "y": 46
+      },
+      {
+        "x": 202,
+        "y": 278
+      },
+      {
+        "x": 599,
+        "y": 284
+      },
+      {
+        "x": 399,
+        "y": 225
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第31关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 11,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 81,
+        "x2": 246,
+        "y": 442
+      },
+      {
+        "type": "range",
+        "x1": 563,
+        "x2": 715,
+        "y": 453
+      },
+      {
+        "type": "range",
+        "x1": 312,
+        "x2": 475,
+        "y": 326
+      },
+      {
+        "type": "single",
+        "x": 159,
+        "y": 207
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 201
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 135
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 158,
+        "y": 166
+      },
+      {
+        "x": 642,
+        "y": 156
+      },
+      {
+        "x": 405,
+        "y": 86
+      },
+      {
+        "x": 94,
+        "y": 417
+      },
+      {
+        "x": 700,
+        "y": 412
+      },
+      {
+        "x": 404,
+        "y": 274
+      }
+    ],
+    "timeLimit": 105
+  },
+  {
+    "name": "第32关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 11,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 58,
+        "x2": 203,
+        "y": 481
+      },
+      {
+        "type": "range",
+        "x1": 606,
+        "x2": 758,
+        "y": 481
+      },
+      {
+        "type": "range",
+        "x1": 243,
+        "x2": 548,
+        "y": 372
+      },
+      {
+        "type": "single",
+        "x": 98,
+        "y": 280
+      },
+      {
+        "type": "single",
+        "x": 704,
+        "y": 273
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 174
+      },
+      {
+        "type": "single",
+        "x": 196,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 591,
+        "y": 120
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 93,
+        "y": 242
+      },
+      {
+        "x": 693,
+        "y": 241
+      },
+      {
+        "x": 403,
+        "y": 143
+      },
+      {
+        "x": 85,
+        "y": 436
+      },
+      {
+        "x": 719,
+        "y": 448
+      },
+      {
+        "x": 405,
+        "y": 337
+      }
+    ],
+    "timeLimit": 95
+  },
+  {
+    "name": "第33关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 11,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 96,
+        "x2": 293,
+        "y": 496
+      },
+      {
+        "type": "range",
+        "x1": 498,
+        "x2": 706,
+        "y": 503
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 429
+      },
+      {
+        "type": "range",
+        "x1": 155,
+        "x2": 349,
+        "y": 338
+      },
+      {
+        "type": "range",
+        "x1": 449,
+        "x2": 641,
+        "y": 345
+      },
+      {
+        "type": "single",
+        "x": 80,
+        "y": 245
+      },
+      {
+        "type": "single",
+        "x": 716,
+        "y": 248
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 153
+      },
+      {
+        "type": "single",
+        "x": 259,
+        "y": 102
+      },
+      {
+        "type": "single",
+        "x": 554,
+        "y": 100
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 80,
+        "y": 206
+      },
+      {
+        "x": 721,
+        "y": 198
+      },
+      {
+        "x": 404,
+        "y": 127
+      },
+      {
+        "x": 195,
+        "y": 459
+      },
+      {
+        "x": 604,
+        "y": 463
+      },
+      {
+        "x": 401,
+        "y": 301
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第34关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat"
+    ],
+    "enemyCount": 12,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 123,
+        "y": 491
+      },
+      {
+        "type": "single",
+        "x": 671,
+        "y": 499
+      },
+      {
+        "type": "range",
+        "x1": 242,
+        "x2": 556,
+        "y": 459
+      },
+      {
+        "type": "single",
+        "x": 78,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 718,
+        "y": 382
+      },
+      {
+        "type": "range",
+        "x1": 199,
+        "x2": 595,
+        "y": 297
+      },
+      {
+        "type": "single",
+        "x": 142,
+        "y": 194
+      },
+      {
+        "type": "single",
+        "x": 655,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 409,
+        "y": 112
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 153,
+        "y": 156
+      },
+      {
+        "x": 644,
+        "y": 161
+      },
+      {
+        "x": 402,
+        "y": 85
+      },
+      {
+        "x": 117,
+        "y": 338
+      },
+      {
+        "x": 676,
+        "y": 343
+      },
+      {
+        "x": 408,
+        "y": 268
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第35关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 13,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 96,
+        "y": 519
+      },
+      {
+        "type": "single",
+        "x": 706,
+        "y": 519
+      },
+      {
+        "type": "single",
+        "x": 251,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 555,
+        "y": 454
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 393
+      },
+      {
+        "type": "single",
+        "x": 153,
+        "y": 318
+      },
+      {
+        "type": "single",
+        "x": 652,
+        "y": 328
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 233
+      },
+      {
+        "type": "single",
+        "x": 499,
+        "y": 231
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 168
+      },
+      {
+        "type": "single",
+        "x": 202,
+        "y": 105
+      },
+      {
+        "type": "single",
+        "x": 609,
+        "y": 99
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 204,
+        "y": 63
+      },
+      {
+        "x": 595,
+        "y": 59
+      },
+      {
+        "x": 407,
+        "y": 112
+      },
+      {
+        "x": 152,
+        "y": 279
+      },
+      {
+        "x": 644,
+        "y": 286
+      },
+      {
+        "x": 401,
+        "y": 365
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第36关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 14,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 45,
+        "x2": 192,
+        "y": 514
+      },
+      {
+        "type": "range",
+        "x1": 600,
+        "x2": 756,
+        "y": 512
+      },
+      {
+        "type": "range",
+        "x1": 194,
+        "x2": 598,
+        "y": 434
+      },
+      {
+        "type": "range",
+        "x1": 95,
+        "x2": 303,
+        "y": 368
+      },
+      {
+        "type": "range",
+        "x1": 502,
+        "x2": 708,
+        "y": 365
+      },
+      {
+        "type": "range",
+        "x1": 259,
+        "x2": 545,
+        "y": 284
+      },
+      {
+        "type": "range",
+        "x1": 144,
+        "x2": 356,
+        "y": 204
+      },
+      {
+        "type": "range",
+        "x1": 449,
+        "x2": 642,
+        "y": 204
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 122
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 125,
+        "y": 320
+      },
+      {
+        "x": 671,
+        "y": 326
+      },
+      {
+        "x": 398,
+        "y": 74
+      },
+      {
+        "x": 403,
+        "y": 398
+      },
+      {
+        "x": 251,
+        "y": 167
+      },
+      {
+        "x": 553,
+        "y": 158
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第37关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat"
+    ],
+    "enemyCount": 12,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 153,
+        "y": 512
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 479
+      },
+      {
+        "type": "single",
+        "x": 655,
+        "y": 514
+      },
+      {
+        "type": "single",
+        "x": 247,
+        "y": 393
+      },
+      {
+        "type": "single",
+        "x": 542,
+        "y": 391
+      },
+      {
+        "type": "single",
+        "x": 148,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 659,
+        "y": 315
+      },
+      {
+        "type": "single",
+        "x": 293,
+        "y": 237
+      },
+      {
+        "type": "single",
+        "x": 497,
+        "y": 248
+      },
+      {
+        "type": "single",
+        "x": 197,
+        "y": 169
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 158
+      },
+      {
+        "type": "single",
+        "x": 391,
+        "y": 95
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 397,
+        "y": 66
+      },
+      {
+        "x": 195,
+        "y": 115
+      },
+      {
+        "x": 601,
+        "y": 117
+      },
+      {
+        "x": 155,
+        "y": 275
+      },
+      {
+        "x": 644,
+        "y": 283
+      },
+      {
+        "x": 406,
+        "y": 433
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第38关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 13,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 41,
+        "x2": 252,
+        "y": 495
+      },
+      {
+        "type": "range",
+        "x1": 559,
+        "x2": 751,
+        "y": 498
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 451
+      },
+      {
+        "type": "range",
+        "x1": 92,
+        "x2": 345,
+        "y": 379
+      },
+      {
+        "type": "range",
+        "x1": 457,
+        "x2": 694,
+        "y": 384
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 293
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 307,
+        "y": 225
+      },
+      {
+        "type": "range",
+        "x1": 494,
+        "x2": 655,
+        "y": 229
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 147
+      },
+      {
+        "type": "single",
+        "x": 207,
+        "y": 72
+      },
+      {
+        "type": "single",
+        "x": 605,
+        "y": 80
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 203,
+        "y": 33
+      },
+      {
+        "x": 593,
+        "y": 40
+      },
+      {
+        "x": 406,
+        "y": 99
+      },
+      {
+        "x": 224,
+        "y": 183
+      },
+      {
+        "x": 569,
+        "y": 180
+      },
+      {
+        "x": 404,
+        "y": 267
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第39关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog"
+    ],
+    "enemyCount": 15,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 93,
+        "y": 545
+      },
+      {
+        "type": "single",
+        "x": 301,
+        "y": 493
+      },
+      {
+        "type": "single",
+        "x": 493,
+        "y": 495
+      },
+      {
+        "type": "single",
+        "x": 699,
+        "y": 535
+      },
+      {
+        "type": "single",
+        "x": 208,
+        "y": 429
+      },
+      {
+        "type": "single",
+        "x": 603,
+        "y": 421
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 387
+      },
+      {
+        "type": "single",
+        "x": 107,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 694,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 308,
+        "y": 254
+      },
+      {
+        "type": "single",
+        "x": 504,
+        "y": 257
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 185
+      },
+      {
+        "type": "single",
+        "x": 201,
+        "y": 124
+      },
+      {
+        "type": "single",
+        "x": 603,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 64
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 398,
+        "y": 19
+      },
+      {
+        "x": 198,
+        "y": 83
+      },
+      {
+        "x": 597,
+        "y": 78
+      },
+      {
+        "x": 95,
+        "y": 283
+      },
+      {
+        "x": 707,
+        "y": 280
+      },
+      {
+        "x": 394,
+        "y": 334
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第40关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee"
+    ],
+    "enemyCount": 14,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 44,
+        "x2": 155,
+        "y": 514
+      },
+      {
+        "type": "range",
+        "x1": 653,
+        "x2": 746,
+        "y": 515
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 493
+      },
+      {
+        "type": "range",
+        "x1": 155,
+        "x2": 353,
+        "y": 435
+      },
+      {
+        "type": "range",
+        "x1": 443,
+        "x2": 651,
+        "y": 445
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 381
+      },
+      {
+        "type": "range",
+        "x1": 108,
+        "x2": 298,
+        "y": 315
+      },
+      {
+        "type": "range",
+        "x1": 507,
+        "x2": 699,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 255
+      },
+      {
+        "type": "range",
+        "x1": 195,
+        "x2": 400,
+        "y": 203
+      },
+      {
+        "type": "range",
+        "x1": 405,
+        "x2": 592,
+        "y": 199
+      },
+      {
+        "type": "single",
+        "x": 392,
+        "y": 120
+      },
+      {
+        "type": "single",
+        "x": 200,
+        "y": 77
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 81
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 398,
+        "y": 73
+      },
+      {
+        "x": 195,
+        "y": 46
+      },
+      {
+        "x": 595,
+        "y": 42
+      },
+      {
+        "x": 203,
+        "y": 279
+      },
+      {
+        "x": 594,
+        "y": 275
+      },
+      {
+        "x": 404,
+        "y": 223
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第41关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 13,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 74,
+        "x2": 248,
+        "y": 442
+      },
+      {
+        "type": "range",
+        "x1": 564,
+        "x2": 725,
+        "y": 448
+      },
+      {
+        "type": "range",
+        "x1": 322,
+        "x2": 477,
+        "y": 326
+      },
+      {
+        "type": "single",
+        "x": 151,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 145,
+        "y": 165
+      },
+      {
+        "x": 652,
+        "y": 153
+      },
+      {
+        "x": 403,
+        "y": 84
+      },
+      {
+        "x": 97,
+        "y": 410
+      },
+      {
+        "x": 703,
+        "y": 409
+      },
+      {
+        "x": 400,
+        "y": 282
+      }
+    ],
+    "timeLimit": 100
+  },
+  {
+    "name": "第42关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl"
+    ],
+    "enemyCount": 13,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 55,
+        "x2": 200,
+        "y": 486
+      },
+      {
+        "type": "range",
+        "x1": 608,
+        "x2": 745,
+        "y": 478
+      },
+      {
+        "type": "range",
+        "x1": 255,
+        "x2": 545,
+        "y": 383
+      },
+      {
+        "type": "single",
+        "x": 107,
+        "y": 281
+      },
+      {
+        "type": "single",
+        "x": 701,
+        "y": 288
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 173
+      },
+      {
+        "type": "single",
+        "x": 193,
+        "y": 124
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 112
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 97,
+        "y": 236
+      },
+      {
+        "x": 705,
+        "y": 235
+      },
+      {
+        "x": 405,
+        "y": 137
+      },
+      {
+        "x": 77,
+        "y": 438
+      },
+      {
+        "x": 714,
+        "y": 433
+      },
+      {
+        "x": 400,
+        "y": 344
+      }
+    ],
+    "timeLimit": 90
+  },
+  {
+    "name": "第43关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl"
+    ],
+    "enemyCount": 13,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 97,
+        "x2": 296,
+        "y": 505
+      },
+      {
+        "type": "range",
+        "x1": 499,
+        "x2": 708,
+        "y": 504
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 423
+      },
+      {
+        "type": "range",
+        "x1": 143,
+        "x2": 355,
+        "y": 344
+      },
+      {
+        "type": "range",
+        "x1": 456,
+        "x2": 644,
+        "y": 332
+      },
+      {
+        "type": "single",
+        "x": 85,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 725,
+        "y": 244
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 161
+      },
+      {
+        "type": "single",
+        "x": 242,
+        "y": 104
+      },
+      {
+        "type": "single",
+        "x": 547,
+        "y": 102
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 85,
+        "y": 202
+      },
+      {
+        "x": 720,
+        "y": 206
+      },
+      {
+        "x": 404,
+        "y": 127
+      },
+      {
+        "x": 198,
+        "y": 454
+      },
+      {
+        "x": 599,
+        "y": 466
+      },
+      {
+        "x": 394,
+        "y": 296
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第44关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon"
+    ],
+    "enemyCount": 14,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 124,
+        "y": 505
+      },
+      {
+        "type": "single",
+        "x": 674,
+        "y": 508
+      },
+      {
+        "type": "range",
+        "x1": 251,
+        "x2": 552,
+        "y": 454
+      },
+      {
+        "type": "single",
+        "x": 82,
+        "y": 379
+      },
+      {
+        "type": "single",
+        "x": 714,
+        "y": 377
+      },
+      {
+        "type": "range",
+        "x1": 195,
+        "x2": 608,
+        "y": 308
+      },
+      {
+        "type": "single",
+        "x": 148,
+        "y": 208
+      },
+      {
+        "type": "single",
+        "x": 653,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 116
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 144,
+        "y": 155
+      },
+      {
+        "x": 647,
+        "y": 156
+      },
+      {
+        "x": 395,
+        "y": 82
+      },
+      {
+        "x": 115,
+        "y": 345
+      },
+      {
+        "x": 685,
+        "y": 343
+      },
+      {
+        "x": 394,
+        "y": 255
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第45关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 16,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 106,
+        "y": 527
+      },
+      {
+        "type": "single",
+        "x": 702,
+        "y": 526
+      },
+      {
+        "type": "single",
+        "x": 246,
+        "y": 462
+      },
+      {
+        "type": "single",
+        "x": 544,
+        "y": 466
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 407
+      },
+      {
+        "type": "single",
+        "x": 150,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 653,
+        "y": 313
+      },
+      {
+        "type": "single",
+        "x": 294,
+        "y": 248
+      },
+      {
+        "type": "single",
+        "x": 506,
+        "y": 241
+      },
+      {
+        "type": "single",
+        "x": 393,
+        "y": 166
+      },
+      {
+        "type": "single",
+        "x": 203,
+        "y": 93
+      },
+      {
+        "type": "single",
+        "x": 594,
+        "y": 101
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 203,
+        "y": 66
+      },
+      {
+        "x": 606,
+        "y": 54
+      },
+      {
+        "x": 402,
+        "y": 122
+      },
+      {
+        "x": 151,
+        "y": 279
+      },
+      {
+        "x": 650,
+        "y": 282
+      },
+      {
+        "x": 401,
+        "y": 365
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第46关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat"
+    ],
+    "enemyCount": 17,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 56,
+        "x2": 198,
+        "y": 513
+      },
+      {
+        "type": "range",
+        "x1": 607,
+        "x2": 758,
+        "y": 522
+      },
+      {
+        "type": "range",
+        "x1": 193,
+        "x2": 606,
+        "y": 436
+      },
+      {
+        "type": "range",
+        "x1": 102,
+        "x2": 294,
+        "y": 355
+      },
+      {
+        "type": "range",
+        "x1": 497,
+        "x2": 693,
+        "y": 368
+      },
+      {
+        "type": "range",
+        "x1": 256,
+        "x2": 556,
+        "y": 279
+      },
+      {
+        "type": "range",
+        "x1": 158,
+        "x2": 347,
+        "y": 208
+      },
+      {
+        "type": "range",
+        "x1": 453,
+        "x2": 651,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 124
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 130,
+        "y": 318
+      },
+      {
+        "x": 678,
+        "y": 322
+      },
+      {
+        "x": 393,
+        "y": 85
+      },
+      {
+        "x": 403,
+        "y": 403
+      },
+      {
+        "x": 248,
+        "y": 154
+      },
+      {
+        "x": 548,
+        "y": 154
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第47关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog"
+    ],
+    "enemyCount": 15,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 151,
+        "y": 524
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 480
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 253,
+        "y": 396
+      },
+      {
+        "type": "single",
+        "x": 554,
+        "y": 401
+      },
+      {
+        "type": "single",
+        "x": 144,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 654,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 296,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 494,
+        "y": 248
+      },
+      {
+        "type": "single",
+        "x": 208,
+        "y": 165
+      },
+      {
+        "type": "single",
+        "x": 592,
+        "y": 163
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 103
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 395,
+        "y": 56
+      },
+      {
+        "x": 198,
+        "y": 125
+      },
+      {
+        "x": 600,
+        "y": 116
+      },
+      {
+        "x": 146,
+        "y": 275
+      },
+      {
+        "x": 645,
+        "y": 274
+      },
+      {
+        "x": 397,
+        "y": 446
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第48关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 16,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 58,
+        "x2": 258,
+        "y": 495
+      },
+      {
+        "type": "range",
+        "x1": 552,
+        "x2": 746,
+        "y": 493
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 464
+      },
+      {
+        "type": "range",
+        "x1": 97,
+        "x2": 347,
+        "y": 377
+      },
+      {
+        "type": "range",
+        "x1": 443,
+        "x2": 705,
+        "y": 386
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 303
+      },
+      {
+        "type": "range",
+        "x1": 151,
+        "x2": 306,
+        "y": 226
+      },
+      {
+        "type": "range",
+        "x1": 499,
+        "x2": 651,
+        "y": 219
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 147
+      },
+      {
+        "type": "single",
+        "x": 206,
+        "y": 83
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 86
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 206,
+        "y": 40
+      },
+      {
+        "x": 602,
+        "y": 42
+      },
+      {
+        "x": 400,
+        "y": 96
+      },
+      {
+        "x": 222,
+        "y": 186
+      },
+      {
+        "x": 578,
+        "y": 176
+      },
+      {
+        "x": 398,
+        "y": 254
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第49关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 547
+      },
+      {
+        "type": "single",
+        "x": 308,
+        "y": 495
+      },
+      {
+        "type": "single",
+        "x": 501,
+        "y": 495
+      },
+      {
+        "type": "single",
+        "x": 697,
+        "y": 534
+      },
+      {
+        "type": "single",
+        "x": 206,
+        "y": 420
+      },
+      {
+        "type": "single",
+        "x": 596,
+        "y": 428
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 385
+      },
+      {
+        "type": "single",
+        "x": 106,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 692,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 293,
+        "y": 265
+      },
+      {
+        "type": "single",
+        "x": 508,
+        "y": 264
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 183
+      },
+      {
+        "type": "single",
+        "x": 194,
+        "y": 124
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 52
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 395,
+        "y": 25
+      },
+      {
+        "x": 204,
+        "y": 79
+      },
+      {
+        "x": 606,
+        "y": 76
+      },
+      {
+        "x": 96,
+        "y": 274
+      },
+      {
+        "x": 698,
+        "y": 281
+      },
+      {
+        "x": 405,
+        "y": 336
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第50关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat"
+    ],
+    "enemyCount": 17,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 150,
+        "y": 525
+      },
+      {
+        "type": "range",
+        "x1": 652,
+        "x2": 743,
+        "y": 520
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 507
+      },
+      {
+        "type": "range",
+        "x1": 147,
+        "x2": 346,
+        "y": 433
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 651,
+        "y": 446
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 384
+      },
+      {
+        "type": "range",
+        "x1": 99,
+        "x2": 294,
+        "y": 321
+      },
+      {
+        "type": "range",
+        "x1": 497,
+        "x2": 696,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 257
+      },
+      {
+        "type": "range",
+        "x1": 196,
+        "x2": 399,
+        "y": 193
+      },
+      {
+        "type": "range",
+        "x1": 405,
+        "x2": 602,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 120
+      },
+      {
+        "type": "single",
+        "x": 206,
+        "y": 74
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 87
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 403,
+        "y": 82
+      },
+      {
+        "x": 194,
+        "y": 44
+      },
+      {
+        "x": 602,
+        "y": 43
+      },
+      {
+        "x": 197,
+        "y": 285
+      },
+      {
+        "x": 596,
+        "y": 278
+      },
+      {
+        "x": 400,
+        "y": 214
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第51关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 16,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 78,
+        "x2": 236,
+        "y": 452
+      },
+      {
+        "type": "range",
+        "x1": 559,
+        "x2": 715,
+        "y": 452
+      },
+      {
+        "type": "range",
+        "x1": 323,
+        "x2": 474,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 148,
+        "y": 201
+      },
+      {
+        "type": "single",
+        "x": 651,
+        "y": 194
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 131
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 156,
+        "y": 162
+      },
+      {
+        "x": 652,
+        "y": 154
+      },
+      {
+        "x": 400,
+        "y": 91
+      },
+      {
+        "x": 94,
+        "y": 414
+      },
+      {
+        "x": 700,
+        "y": 409
+      },
+      {
+        "x": 398,
+        "y": 285
+      }
+    ],
+    "timeLimit": 95
+  },
+  {
+    "name": "第52关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 16,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 48,
+        "x2": 205,
+        "y": 473
+      },
+      {
+        "type": "range",
+        "x1": 598,
+        "x2": 746,
+        "y": 474
+      },
+      {
+        "type": "range",
+        "x1": 253,
+        "x2": 553,
+        "y": 384
+      },
+      {
+        "type": "single",
+        "x": 105,
+        "y": 274
+      },
+      {
+        "type": "single",
+        "x": 704,
+        "y": 282
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 185
+      },
+      {
+        "type": "single",
+        "x": 193,
+        "y": 115
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 118
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 99,
+        "y": 244
+      },
+      {
+        "x": 696,
+        "y": 246
+      },
+      {
+        "x": 404,
+        "y": 141
+      },
+      {
+        "x": 85,
+        "y": 441
+      },
+      {
+        "x": 724,
+        "y": 436
+      },
+      {
+        "x": 406,
+        "y": 336
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第53关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog"
+    ],
+    "enemyCount": 16,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 104,
+        "x2": 305,
+        "y": 494
+      },
+      {
+        "type": "range",
+        "x1": 493,
+        "x2": 697,
+        "y": 500
+      },
+      {
+        "type": "single",
+        "x": 393,
+        "y": 416
+      },
+      {
+        "type": "range",
+        "x1": 146,
+        "x2": 357,
+        "y": 345
+      },
+      {
+        "type": "range",
+        "x1": 448,
+        "x2": 657,
+        "y": 333
+      },
+      {
+        "type": "single",
+        "x": 81,
+        "y": 237
+      },
+      {
+        "type": "single",
+        "x": 726,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 161
+      },
+      {
+        "type": "single",
+        "x": 243,
+        "y": 97
+      },
+      {
+        "type": "single",
+        "x": 553,
+        "y": 105
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 77,
+        "y": 198
+      },
+      {
+        "x": 719,
+        "y": 206
+      },
+      {
+        "x": 394,
+        "y": 124
+      },
+      {
+        "x": 199,
+        "y": 458
+      },
+      {
+        "x": 595,
+        "y": 466
+      },
+      {
+        "x": 399,
+        "y": 300
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第54关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl"
+    ],
+    "enemyCount": 17,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 119,
+        "y": 507
+      },
+      {
+        "type": "single",
+        "x": 680,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 249,
+        "x2": 548,
+        "y": 457
+      },
+      {
+        "type": "single",
+        "x": 80,
+        "y": 375
+      },
+      {
+        "type": "single",
+        "x": 720,
+        "y": 384
+      },
+      {
+        "type": "range",
+        "x1": 207,
+        "x2": 605,
+        "y": 298
+      },
+      {
+        "type": "single",
+        "x": 147,
+        "y": 201
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 205
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 124
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 145,
+        "y": 160
+      },
+      {
+        "x": 653,
+        "y": 156
+      },
+      {
+        "x": 402,
+        "y": 78
+      },
+      {
+        "x": 119,
+        "y": 335
+      },
+      {
+        "x": 675,
+        "y": 339
+      },
+      {
+        "x": 404,
+        "y": 258
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第55关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 100,
+        "y": 517
+      },
+      {
+        "type": "single",
+        "x": 704,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 245,
+        "y": 459
+      },
+      {
+        "type": "single",
+        "x": 550,
+        "y": 464
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 398
+      },
+      {
+        "type": "single",
+        "x": 154,
+        "y": 313
+      },
+      {
+        "type": "single",
+        "x": 657,
+        "y": 326
+      },
+      {
+        "type": "single",
+        "x": 302,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 497,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 163
+      },
+      {
+        "type": "single",
+        "x": 194,
+        "y": 93
+      },
+      {
+        "type": "single",
+        "x": 603,
+        "y": 103
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 200,
+        "y": 59
+      },
+      {
+        "x": 602,
+        "y": 66
+      },
+      {
+        "x": 405,
+        "y": 124
+      },
+      {
+        "x": 146,
+        "y": 274
+      },
+      {
+        "x": 646,
+        "y": 283
+      },
+      {
+        "x": 404,
+        "y": 366
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第56关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 43,
+        "x2": 195,
+        "y": 520
+      },
+      {
+        "type": "range",
+        "x1": 596,
+        "x2": 755,
+        "y": 514
+      },
+      {
+        "type": "range",
+        "x1": 198,
+        "x2": 598,
+        "y": 443
+      },
+      {
+        "type": "range",
+        "x1": 102,
+        "x2": 293,
+        "y": 359
+      },
+      {
+        "type": "range",
+        "x1": 495,
+        "x2": 703,
+        "y": 362
+      },
+      {
+        "type": "range",
+        "x1": 248,
+        "x2": 548,
+        "y": 280
+      },
+      {
+        "type": "range",
+        "x1": 155,
+        "x2": 344,
+        "y": 200
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 651,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 118
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 124,
+        "y": 324
+      },
+      {
+        "x": 673,
+        "y": 317
+      },
+      {
+        "x": 395,
+        "y": 74
+      },
+      {
+        "x": 405,
+        "y": 396
+      },
+      {
+        "x": 251,
+        "y": 162
+      },
+      {
+        "x": 550,
+        "y": 162
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第57关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster"
+    ],
+    "enemyCount": 17,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 147,
+        "y": 514
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 485
+      },
+      {
+        "type": "single",
+        "x": 650,
+        "y": 524
+      },
+      {
+        "type": "single",
+        "x": 252,
+        "y": 396
+      },
+      {
+        "type": "single",
+        "x": 554,
+        "y": 397
+      },
+      {
+        "type": "single",
+        "x": 150,
+        "y": 327
+      },
+      {
+        "type": "single",
+        "x": 644,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 306,
+        "y": 235
+      },
+      {
+        "type": "single",
+        "x": 500,
+        "y": 234
+      },
+      {
+        "type": "single",
+        "x": 207,
+        "y": 155
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 164
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 94
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 404,
+        "y": 59
+      },
+      {
+        "x": 204,
+        "y": 119
+      },
+      {
+        "x": 605,
+        "y": 115
+      },
+      {
+        "x": 152,
+        "y": 282
+      },
+      {
+        "x": 648,
+        "y": 278
+      },
+      {
+        "x": 396,
+        "y": 445
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第58关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 57,
+        "x2": 254,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 545,
+        "x2": 755,
+        "y": 503
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 458
+      },
+      {
+        "type": "range",
+        "x1": 94,
+        "x2": 346,
+        "y": 376
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 696,
+        "y": 385
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 305
+      },
+      {
+        "type": "range",
+        "x1": 148,
+        "x2": 301,
+        "y": 213
+      },
+      {
+        "type": "range",
+        "x1": 498,
+        "x2": 650,
+        "y": 222
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 145
+      },
+      {
+        "type": "single",
+        "x": 202,
+        "y": 75
+      },
+      {
+        "type": "single",
+        "x": 594,
+        "y": 87
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 195,
+        "y": 38
+      },
+      {
+        "x": 600,
+        "y": 45
+      },
+      {
+        "x": 405,
+        "y": 101
+      },
+      {
+        "x": 227,
+        "y": 180
+      },
+      {
+        "x": 581,
+        "y": 180
+      },
+      {
+        "x": 403,
+        "y": 255
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第59关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 98,
+        "y": 535
+      },
+      {
+        "type": "single",
+        "x": 294,
+        "y": 503
+      },
+      {
+        "type": "single",
+        "x": 500,
+        "y": 500
+      },
+      {
+        "type": "single",
+        "x": 701,
+        "y": 543
+      },
+      {
+        "type": "single",
+        "x": 195,
+        "y": 418
+      },
+      {
+        "type": "single",
+        "x": 606,
+        "y": 427
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 385
+      },
+      {
+        "type": "single",
+        "x": 102,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 705,
+        "y": 315
+      },
+      {
+        "type": "single",
+        "x": 299,
+        "y": 255
+      },
+      {
+        "type": "single",
+        "x": 507,
+        "y": 261
+      },
+      {
+        "type": "single",
+        "x": 393,
+        "y": 186
+      },
+      {
+        "type": "single",
+        "x": 194,
+        "y": 126
+      },
+      {
+        "type": "single",
+        "x": 595,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 57
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 396,
+        "y": 19
+      },
+      {
+        "x": 205,
+        "y": 77
+      },
+      {
+        "x": 599,
+        "y": 82
+      },
+      {
+        "x": 98,
+        "y": 275
+      },
+      {
+        "x": 698,
+        "y": 277
+      },
+      {
+        "x": 404,
+        "y": 342
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第60关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 46,
+        "x2": 154,
+        "y": 518
+      },
+      {
+        "type": "range",
+        "x1": 653,
+        "x2": 752,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 495
+      },
+      {
+        "type": "range",
+        "x1": 146,
+        "x2": 353,
+        "y": 444
+      },
+      {
+        "type": "range",
+        "x1": 446,
+        "x2": 646,
+        "y": 443
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 384
+      },
+      {
+        "type": "range",
+        "x1": 103,
+        "x2": 299,
+        "y": 325
+      },
+      {
+        "type": "range",
+        "x1": 494,
+        "x2": 694,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 394,
+        "y": 255
+      },
+      {
+        "type": "range",
+        "x1": 206,
+        "x2": 403,
+        "y": 204
+      },
+      {
+        "type": "range",
+        "x1": 404,
+        "x2": 597,
+        "y": 198
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 126
+      },
+      {
+        "type": "single",
+        "x": 203,
+        "y": 80
+      },
+      {
+        "type": "single",
+        "x": 594,
+        "y": 84
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 402,
+        "y": 85
+      },
+      {
+        "x": 203,
+        "y": 39
+      },
+      {
+        "x": 605,
+        "y": 39
+      },
+      {
+        "x": 202,
+        "y": 278
+      },
+      {
+        "x": 605,
+        "y": 281
+      },
+      {
+        "x": 399,
+        "y": 222
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第61关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 85,
+        "x2": 234,
+        "y": 445
+      },
+      {
+        "type": "range",
+        "x1": 561,
+        "x2": 720,
+        "y": 446
+      },
+      {
+        "type": "range",
+        "x1": 321,
+        "x2": 477,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 153,
+        "y": 199
+      },
+      {
+        "type": "single",
+        "x": 649,
+        "y": 196
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 135
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 150,
+        "y": 161
+      },
+      {
+        "x": 647,
+        "y": 160
+      },
+      {
+        "x": 403,
+        "y": 93
+      },
+      {
+        "x": 96,
+        "y": 410
+      },
+      {
+        "x": 698,
+        "y": 412
+      },
+      {
+        "x": 396,
+        "y": 279
+      }
+    ],
+    "timeLimit": 90
+  },
+  {
+    "name": "第62关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 196,
+        "y": 481
+      },
+      {
+        "type": "range",
+        "x1": 594,
+        "x2": 748,
+        "y": 475
+      },
+      {
+        "type": "range",
+        "x1": 253,
+        "x2": 550,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 96,
+        "y": 277
+      },
+      {
+        "type": "single",
+        "x": 703,
+        "y": 279
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 185
+      },
+      {
+        "type": "single",
+        "x": 206,
+        "y": 117
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 116
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 103,
+        "y": 242
+      },
+      {
+        "x": 702,
+        "y": 239
+      },
+      {
+        "x": 402,
+        "y": 135
+      },
+      {
+        "x": 76,
+        "y": 441
+      },
+      {
+        "x": 723,
+        "y": 442
+      },
+      {
+        "x": 398,
+        "y": 338
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第63关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 99,
+        "x2": 294,
+        "y": 503
+      },
+      {
+        "type": "range",
+        "x1": 498,
+        "x2": 701,
+        "y": 494
+      },
+      {
+        "type": "single",
+        "x": 404,
+        "y": 423
+      },
+      {
+        "type": "range",
+        "x1": 151,
+        "x2": 348,
+        "y": 344
+      },
+      {
+        "type": "range",
+        "x1": 444,
+        "x2": 645,
+        "y": 342
+      },
+      {
+        "type": "single",
+        "x": 76,
+        "y": 240
+      },
+      {
+        "type": "single",
+        "x": 725,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 159
+      },
+      {
+        "type": "single",
+        "x": 249,
+        "y": 100
+      },
+      {
+        "type": "single",
+        "x": 550,
+        "y": 94
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 75,
+        "y": 204
+      },
+      {
+        "x": 723,
+        "y": 198
+      },
+      {
+        "x": 400,
+        "y": 123
+      },
+      {
+        "x": 199,
+        "y": 456
+      },
+      {
+        "x": 601,
+        "y": 463
+      },
+      {
+        "x": 402,
+        "y": 303
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第64关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 123,
+        "y": 498
+      },
+      {
+        "type": "single",
+        "x": 683,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 246,
+        "x2": 545,
+        "y": 445
+      },
+      {
+        "type": "single",
+        "x": 79,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 719,
+        "y": 386
+      },
+      {
+        "type": "range",
+        "x1": 199,
+        "x2": 606,
+        "y": 302
+      },
+      {
+        "type": "single",
+        "x": 147,
+        "y": 196
+      },
+      {
+        "type": "single",
+        "x": 652,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 120
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 145,
+        "y": 155
+      },
+      {
+        "x": 645,
+        "y": 157
+      },
+      {
+        "x": 400,
+        "y": 82
+      },
+      {
+        "x": 123,
+        "y": 342
+      },
+      {
+        "x": 677,
+        "y": 344
+      },
+      {
+        "x": 403,
+        "y": 257
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第65关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 519
+      },
+      {
+        "type": "single",
+        "x": 696,
+        "y": 519
+      },
+      {
+        "type": "single",
+        "x": 253,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 548,
+        "y": 465
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 403
+      },
+      {
+        "type": "single",
+        "x": 152,
+        "y": 322
+      },
+      {
+        "type": "single",
+        "x": 651,
+        "y": 322
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 245
+      },
+      {
+        "type": "single",
+        "x": 501,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 154
+      },
+      {
+        "type": "single",
+        "x": 204,
+        "y": 99
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 95
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 204,
+        "y": 59
+      },
+      {
+        "x": 605,
+        "y": 55
+      },
+      {
+        "x": 404,
+        "y": 122
+      },
+      {
+        "x": 149,
+        "y": 285
+      },
+      {
+        "x": 654,
+        "y": 284
+      },
+      {
+        "x": 398,
+        "y": 355
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第66关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 51,
+        "x2": 196,
+        "y": 523
+      },
+      {
+        "type": "range",
+        "x1": 604,
+        "x2": 755,
+        "y": 522
+      },
+      {
+        "type": "range",
+        "x1": 206,
+        "x2": 600,
+        "y": 443
+      },
+      {
+        "type": "range",
+        "x1": 104,
+        "x2": 297,
+        "y": 356
+      },
+      {
+        "type": "range",
+        "x1": 503,
+        "x2": 705,
+        "y": 354
+      },
+      {
+        "type": "range",
+        "x1": 247,
+        "x2": 544,
+        "y": 275
+      },
+      {
+        "type": "range",
+        "x1": 149,
+        "x2": 350,
+        "y": 201
+      },
+      {
+        "type": "range",
+        "x1": 450,
+        "x2": 655,
+        "y": 196
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 117
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 128,
+        "y": 324
+      },
+      {
+        "x": 677,
+        "y": 315
+      },
+      {
+        "x": 397,
+        "y": 83
+      },
+      {
+        "x": 398,
+        "y": 403
+      },
+      {
+        "x": 250,
+        "y": 165
+      },
+      {
+        "x": 552,
+        "y": 163
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第67关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 149,
+        "y": 520
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 476
+      },
+      {
+        "type": "single",
+        "x": 649,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 249,
+        "y": 402
+      },
+      {
+        "type": "single",
+        "x": 556,
+        "y": 404
+      },
+      {
+        "type": "single",
+        "x": 154,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 656,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 298,
+        "y": 245
+      },
+      {
+        "type": "single",
+        "x": 501,
+        "y": 243
+      },
+      {
+        "type": "single",
+        "x": 197,
+        "y": 157
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 158
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 98
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 399,
+        "y": 59
+      },
+      {
+        "x": 198,
+        "y": 122
+      },
+      {
+        "x": 600,
+        "y": 122
+      },
+      {
+        "x": 150,
+        "y": 283
+      },
+      {
+        "x": 649,
+        "y": 279
+      },
+      {
+        "x": 396,
+        "y": 444
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第68关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 52,
+        "x2": 250,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 549,
+        "x2": 756,
+        "y": 500
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 466
+      },
+      {
+        "type": "range",
+        "x1": 94,
+        "x2": 348,
+        "y": 378
+      },
+      {
+        "type": "range",
+        "x1": 445,
+        "x2": 699,
+        "y": 385
+      },
+      {
+        "type": "single",
+        "x": 404,
+        "y": 301
+      },
+      {
+        "type": "range",
+        "x1": 155,
+        "x2": 301,
+        "y": 218
+      },
+      {
+        "type": "range",
+        "x1": 497,
+        "x2": 652,
+        "y": 217
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 138
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 85
+      },
+      {
+        "type": "single",
+        "x": 595,
+        "y": 76
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 204,
+        "y": 44
+      },
+      {
+        "x": 598,
+        "y": 38
+      },
+      {
+        "x": 395,
+        "y": 105
+      },
+      {
+        "x": 228,
+        "y": 178
+      },
+      {
+        "x": 580,
+        "y": 178
+      },
+      {
+        "x": 395,
+        "y": 256
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第69关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 99,
+        "y": 540
+      },
+      {
+        "type": "single",
+        "x": 301,
+        "y": 505
+      },
+      {
+        "type": "single",
+        "x": 504,
+        "y": 495
+      },
+      {
+        "type": "single",
+        "x": 696,
+        "y": 546
+      },
+      {
+        "type": "single",
+        "x": 202,
+        "y": 414
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 416
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 384
+      },
+      {
+        "type": "single",
+        "x": 104,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 706,
+        "y": 317
+      },
+      {
+        "type": "single",
+        "x": 299,
+        "y": 258
+      },
+      {
+        "type": "single",
+        "x": 504,
+        "y": 258
+      },
+      {
+        "type": "single",
+        "x": 406,
+        "y": 174
+      },
+      {
+        "type": "single",
+        "x": 204,
+        "y": 115
+      },
+      {
+        "type": "single",
+        "x": 597,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 62
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 395,
+        "y": 17
+      },
+      {
+        "x": 201,
+        "y": 77
+      },
+      {
+        "x": 595,
+        "y": 81
+      },
+      {
+        "x": 102,
+        "y": 277
+      },
+      {
+        "x": 699,
+        "y": 275
+      },
+      {
+        "x": 395,
+        "y": 339
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第70关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 146,
+        "y": 524
+      },
+      {
+        "type": "range",
+        "x1": 649,
+        "x2": 752,
+        "y": 520
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 505
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 347,
+        "y": 443
+      },
+      {
+        "type": "range",
+        "x1": 452,
+        "x2": 649,
+        "y": 443
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 378
+      },
+      {
+        "type": "range",
+        "x1": 97,
+        "x2": 302,
+        "y": 320
+      },
+      {
+        "type": "range",
+        "x1": 499,
+        "x2": 697,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 255
+      },
+      {
+        "type": "range",
+        "x1": 204,
+        "x2": 405,
+        "y": 199
+      },
+      {
+        "type": "range",
+        "x1": 397,
+        "x2": 604,
+        "y": 198
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 203,
+        "y": 81
+      },
+      {
+        "type": "single",
+        "x": 596,
+        "y": 80
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 401,
+        "y": 85
+      },
+      {
+        "x": 196,
+        "y": 37
+      },
+      {
+        "x": 597,
+        "y": 42
+      },
+      {
+        "x": 200,
+        "y": 278
+      },
+      {
+        "x": 595,
+        "y": 279
+      },
+      {
+        "x": 401,
+        "y": 218
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第71关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 79,
+        "x2": 240,
+        "y": 452
+      },
+      {
+        "type": "range",
+        "x1": 564,
+        "x2": 724,
+        "y": 449
+      },
+      {
+        "type": "range",
+        "x1": 319,
+        "x2": 485,
+        "y": 315
+      },
+      {
+        "type": "single",
+        "x": 148,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 655,
+        "y": 195
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 126
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 149,
+        "y": 157
+      },
+      {
+        "x": 651,
+        "y": 165
+      },
+      {
+        "x": 403,
+        "y": 89
+      },
+      {
+        "x": 96,
+        "y": 415
+      },
+      {
+        "x": 699,
+        "y": 410
+      },
+      {
+        "x": 404,
+        "y": 278
+      }
+    ],
+    "timeLimit": 85
+  },
+  {
+    "name": "第72关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 202,
+        "y": 478
+      },
+      {
+        "type": "range",
+        "x1": 602,
+        "x2": 754,
+        "y": 477
+      },
+      {
+        "type": "range",
+        "x1": 251,
+        "x2": 553,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 282
+      },
+      {
+        "type": "single",
+        "x": 698,
+        "y": 285
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 178
+      },
+      {
+        "type": "single",
+        "x": 196,
+        "y": 124
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 104,
+        "y": 241
+      },
+      {
+        "x": 697,
+        "y": 237
+      },
+      {
+        "x": 396,
+        "y": 144
+      },
+      {
+        "x": 84,
+        "y": 439
+      },
+      {
+        "x": 724,
+        "y": 438
+      },
+      {
+        "x": 398,
+        "y": 341
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第73关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 102,
+        "x2": 296,
+        "y": 503
+      },
+      {
+        "type": "range",
+        "x1": 498,
+        "x2": 704,
+        "y": 505
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 422
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 345,
+        "y": 343
+      },
+      {
+        "type": "range",
+        "x1": 447,
+        "x2": 653,
+        "y": 342
+      },
+      {
+        "type": "single",
+        "x": 82,
+        "y": 241
+      },
+      {
+        "type": "single",
+        "x": 715,
+        "y": 244
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 163
+      },
+      {
+        "type": "single",
+        "x": 249,
+        "y": 105
+      },
+      {
+        "type": "single",
+        "x": 551,
+        "y": 95
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 80,
+        "y": 196
+      },
+      {
+        "x": 719,
+        "y": 197
+      },
+      {
+        "x": 396,
+        "y": 122
+      },
+      {
+        "x": 201,
+        "y": 457
+      },
+      {
+        "x": 604,
+        "y": 456
+      },
+      {
+        "x": 397,
+        "y": 303
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第74关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 119,
+        "y": 495
+      },
+      {
+        "type": "single",
+        "x": 677,
+        "y": 501
+      },
+      {
+        "type": "range",
+        "x1": 255,
+        "x2": 555,
+        "y": 447
+      },
+      {
+        "type": "single",
+        "x": 80,
+        "y": 381
+      },
+      {
+        "type": "single",
+        "x": 722,
+        "y": 381
+      },
+      {
+        "type": "range",
+        "x1": 201,
+        "x2": 596,
+        "y": 301
+      },
+      {
+        "type": "single",
+        "x": 155,
+        "y": 205
+      },
+      {
+        "type": "single",
+        "x": 647,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 125
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 147,
+        "y": 158
+      },
+      {
+        "x": 654,
+        "y": 162
+      },
+      {
+        "x": 404,
+        "y": 78
+      },
+      {
+        "x": 119,
+        "y": 336
+      },
+      {
+        "x": 676,
+        "y": 340
+      },
+      {
+        "x": 403,
+        "y": 264
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第75关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 521
+      },
+      {
+        "type": "single",
+        "x": 698,
+        "y": 521
+      },
+      {
+        "type": "single",
+        "x": 252,
+        "y": 458
+      },
+      {
+        "type": "single",
+        "x": 547,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 399
+      },
+      {
+        "type": "single",
+        "x": 145,
+        "y": 316
+      },
+      {
+        "type": "single",
+        "x": 651,
+        "y": 325
+      },
+      {
+        "type": "single",
+        "x": 295,
+        "y": 244
+      },
+      {
+        "type": "single",
+        "x": 498,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 156
+      },
+      {
+        "type": "single",
+        "x": 195,
+        "y": 104
+      },
+      {
+        "type": "single",
+        "x": 604,
+        "y": 102
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 196,
+        "y": 59
+      },
+      {
+        "x": 596,
+        "y": 62
+      },
+      {
+        "x": 403,
+        "y": 119
+      },
+      {
+        "x": 154,
+        "y": 279
+      },
+      {
+        "x": 646,
+        "y": 278
+      },
+      {
+        "x": 404,
+        "y": 360
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第76关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 200,
+        "y": 518
+      },
+      {
+        "type": "range",
+        "x1": 604,
+        "x2": 755,
+        "y": 524
+      },
+      {
+        "type": "range",
+        "x1": 198,
+        "x2": 599,
+        "y": 440
+      },
+      {
+        "type": "range",
+        "x1": 105,
+        "x2": 303,
+        "y": 357
+      },
+      {
+        "type": "range",
+        "x1": 501,
+        "x2": 699,
+        "y": 358
+      },
+      {
+        "type": "range",
+        "x1": 245,
+        "x2": 553,
+        "y": 279
+      },
+      {
+        "type": "range",
+        "x1": 147,
+        "x2": 355,
+        "y": 204
+      },
+      {
+        "type": "range",
+        "x1": 451,
+        "x2": 653,
+        "y": 205
+      },
+      {
+        "type": "single",
+        "x": 395,
+        "y": 122
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 126,
+        "y": 322
+      },
+      {
+        "x": 679,
+        "y": 321
+      },
+      {
+        "x": 402,
+        "y": 82
+      },
+      {
+        "x": 398,
+        "y": 400
+      },
+      {
+        "x": 252,
+        "y": 158
+      },
+      {
+        "x": 554,
+        "y": 163
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第77关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 148,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 479
+      },
+      {
+        "type": "single",
+        "x": 645,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 251,
+        "y": 403
+      },
+      {
+        "type": "single",
+        "x": 553,
+        "y": 401
+      },
+      {
+        "type": "single",
+        "x": 147,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 648,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 298,
+        "y": 239
+      },
+      {
+        "type": "single",
+        "x": 505,
+        "y": 240
+      },
+      {
+        "type": "single",
+        "x": 202,
+        "y": 156
+      },
+      {
+        "type": "single",
+        "x": 596,
+        "y": 160
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 103
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 396,
+        "y": 60
+      },
+      {
+        "x": 202,
+        "y": 116
+      },
+      {
+        "x": 597,
+        "y": 119
+      },
+      {
+        "x": 154,
+        "y": 279
+      },
+      {
+        "x": 653,
+        "y": 279
+      },
+      {
+        "x": 401,
+        "y": 440
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第78关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 48,
+        "x2": 248,
+        "y": 495
+      },
+      {
+        "type": "range",
+        "x1": 552,
+        "x2": 748,
+        "y": 496
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 464
+      },
+      {
+        "type": "range",
+        "x1": 98,
+        "x2": 353,
+        "y": 381
+      },
+      {
+        "type": "range",
+        "x1": 449,
+        "x2": 701,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 302
+      },
+      {
+        "type": "range",
+        "x1": 150,
+        "x2": 299,
+        "y": 225
+      },
+      {
+        "type": "range",
+        "x1": 500,
+        "x2": 653,
+        "y": 219
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 142
+      },
+      {
+        "type": "single",
+        "x": 202,
+        "y": 76
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 80
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 201,
+        "y": 41
+      },
+      {
+        "x": 602,
+        "y": 36
+      },
+      {
+        "x": 399,
+        "y": 98
+      },
+      {
+        "x": 221,
+        "y": 180
+      },
+      {
+        "x": 579,
+        "y": 182
+      },
+      {
+        "x": 400,
+        "y": 258
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第79关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 100,
+        "y": 538
+      },
+      {
+        "type": "single",
+        "x": 301,
+        "y": 498
+      },
+      {
+        "type": "single",
+        "x": 498,
+        "y": 504
+      },
+      {
+        "type": "single",
+        "x": 703,
+        "y": 542
+      },
+      {
+        "type": "single",
+        "x": 205,
+        "y": 425
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 420
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 382
+      },
+      {
+        "type": "single",
+        "x": 102,
+        "y": 322
+      },
+      {
+        "type": "single",
+        "x": 700,
+        "y": 317
+      },
+      {
+        "type": "single",
+        "x": 297,
+        "y": 257
+      },
+      {
+        "type": "single",
+        "x": 502,
+        "y": 263
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 177
+      },
+      {
+        "type": "single",
+        "x": 195,
+        "y": 125
+      },
+      {
+        "type": "single",
+        "x": 595,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 405,
+        "y": 56
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 396,
+        "y": 16
+      },
+      {
+        "x": 202,
+        "y": 78
+      },
+      {
+        "x": 599,
+        "y": 77
+      },
+      {
+        "x": 98,
+        "y": 276
+      },
+      {
+        "x": 699,
+        "y": 284
+      },
+      {
+        "x": 403,
+        "y": 341
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第80关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 53,
+        "x2": 153,
+        "y": 516
+      },
+      {
+        "type": "range",
+        "x1": 646,
+        "x2": 754,
+        "y": 516
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 146,
+        "x2": 354,
+        "y": 436
+      },
+      {
+        "type": "range",
+        "x1": 454,
+        "x2": 650,
+        "y": 440
+      },
+      {
+        "type": "single",
+        "x": 404,
+        "y": 376
+      },
+      {
+        "type": "range",
+        "x1": 98,
+        "x2": 297,
+        "y": 322
+      },
+      {
+        "type": "range",
+        "x1": 504,
+        "x2": 698,
+        "y": 317
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 259
+      },
+      {
+        "type": "range",
+        "x1": 200,
+        "x2": 401,
+        "y": 204
+      },
+      {
+        "type": "range",
+        "x1": 402,
+        "x2": 597,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 199,
+        "y": 83
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 79
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 397,
+        "y": 76
+      },
+      {
+        "x": 197,
+        "y": 42
+      },
+      {
+        "x": 602,
+        "y": 42
+      },
+      {
+        "x": 204,
+        "y": 283
+      },
+      {
+        "x": 596,
+        "y": 276
+      },
+      {
+        "x": 398,
+        "y": 217
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第81关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 82,
+        "x2": 241,
+        "y": 453
+      },
+      {
+        "type": "range",
+        "x1": 564,
+        "x2": 716,
+        "y": 447
+      },
+      {
+        "type": "range",
+        "x1": 319,
+        "x2": 483,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 146,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 650,
+        "y": 197
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 134
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 148,
+        "y": 161
+      },
+      {
+        "x": 646,
+        "y": 159
+      },
+      {
+        "x": 398,
+        "y": 92
+      },
+      {
+        "x": 97,
+        "y": 410
+      },
+      {
+        "x": 698,
+        "y": 409
+      },
+      {
+        "x": 402,
+        "y": 284
+      }
+    ],
+    "timeLimit": 80
+  },
+  {
+    "name": "第82关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 52,
+        "x2": 198,
+        "y": 481
+      },
+      {
+        "type": "range",
+        "x1": 604,
+        "x2": 751,
+        "y": 477
+      },
+      {
+        "type": "range",
+        "x1": 247,
+        "x2": 552,
+        "y": 376
+      },
+      {
+        "type": "single",
+        "x": 97,
+        "y": 279
+      },
+      {
+        "type": "single",
+        "x": 702,
+        "y": 281
+      },
+      {
+        "type": "single",
+        "x": 396,
+        "y": 181
+      },
+      {
+        "type": "single",
+        "x": 203,
+        "y": 120
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 101,
+        "y": 244
+      },
+      {
+        "x": 702,
+        "y": 242
+      },
+      {
+        "x": 398,
+        "y": 142
+      },
+      {
+        "x": 77,
+        "y": 440
+      },
+      {
+        "x": 719,
+        "y": 437
+      },
+      {
+        "x": 397,
+        "y": 340
+      }
+    ],
+    "timeLimit": 70
+  },
+  {
+    "name": "第83关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 102,
+        "x2": 298,
+        "y": 498
+      },
+      {
+        "type": "range",
+        "x1": 501,
+        "x2": 701,
+        "y": 502
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 417
+      },
+      {
+        "type": "range",
+        "x1": 150,
+        "x2": 353,
+        "y": 336
+      },
+      {
+        "type": "range",
+        "x1": 450,
+        "x2": 647,
+        "y": 341
+      },
+      {
+        "type": "single",
+        "x": 77,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 722,
+        "y": 238
+      },
+      {
+        "type": "single",
+        "x": 404,
+        "y": 163
+      },
+      {
+        "type": "single",
+        "x": 254,
+        "y": 104
+      },
+      {
+        "type": "single",
+        "x": 547,
+        "y": 102
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 76,
+        "y": 197
+      },
+      {
+        "x": 721,
+        "y": 204
+      },
+      {
+        "x": 397,
+        "y": 121
+      },
+      {
+        "x": 202,
+        "y": 456
+      },
+      {
+        "x": 600,
+        "y": 462
+      },
+      {
+        "x": 402,
+        "y": 297
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第84关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 119,
+        "y": 504
+      },
+      {
+        "type": "single",
+        "x": 678,
+        "y": 504
+      },
+      {
+        "type": "range",
+        "x1": 248,
+        "x2": 548,
+        "y": 452
+      },
+      {
+        "type": "single",
+        "x": 80,
+        "y": 380
+      },
+      {
+        "type": "single",
+        "x": 723,
+        "y": 380
+      },
+      {
+        "type": "range",
+        "x1": 197,
+        "x2": 598,
+        "y": 298
+      },
+      {
+        "type": "single",
+        "x": 150,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 650,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 149,
+        "y": 159
+      },
+      {
+        "x": 648,
+        "y": 162
+      },
+      {
+        "x": 402,
+        "y": 80
+      },
+      {
+        "x": 121,
+        "y": 341
+      },
+      {
+        "x": 678,
+        "y": 340
+      },
+      {
+        "x": 397,
+        "y": 258
+      }
+    ],
+    "timeLimit": 60
+  },
+  {
+    "name": "第85关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 96,
+        "y": 520
+      },
+      {
+        "type": "single",
+        "x": 701,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 251,
+        "y": 462
+      },
+      {
+        "type": "single",
+        "x": 551,
+        "y": 463
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 402
+      },
+      {
+        "type": "single",
+        "x": 151,
+        "y": 320
+      },
+      {
+        "type": "single",
+        "x": 653,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 298,
+        "y": 241
+      },
+      {
+        "type": "single",
+        "x": 501,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 160
+      },
+      {
+        "type": "single",
+        "x": 201,
+        "y": 99
+      },
+      {
+        "type": "single",
+        "x": 600,
+        "y": 102
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 203,
+        "y": 63
+      },
+      {
+        "x": 600,
+        "y": 59
+      },
+      {
+        "x": 397,
+        "y": 121
+      },
+      {
+        "x": 148,
+        "y": 281
+      },
+      {
+        "x": 651,
+        "y": 278
+      },
+      {
+        "x": 402,
+        "y": 363
+      }
+    ],
+    "timeLimit": 50
+  },
+  {
+    "name": "第86关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 46,
+        "x2": 203,
+        "y": 524
+      },
+      {
+        "type": "range",
+        "x1": 603,
+        "x2": 750,
+        "y": 519
+      },
+      {
+        "type": "range",
+        "x1": 202,
+        "x2": 603,
+        "y": 437
+      },
+      {
+        "type": "range",
+        "x1": 100,
+        "x2": 299,
+        "y": 358
+      },
+      {
+        "type": "range",
+        "x1": 498,
+        "x2": 702,
+        "y": 360
+      },
+      {
+        "type": "range",
+        "x1": 247,
+        "x2": 553,
+        "y": 282
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 354,
+        "y": 203
+      },
+      {
+        "type": "range",
+        "x1": 452,
+        "x2": 654,
+        "y": 204
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 116
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 127,
+        "y": 323
+      },
+      {
+        "x": 676,
+        "y": 321
+      },
+      {
+        "x": 402,
+        "y": 77
+      },
+      {
+        "x": 397,
+        "y": 403
+      },
+      {
+        "x": 248,
+        "y": 162
+      },
+      {
+        "x": 552,
+        "y": 159
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第87关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 146,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 482
+      },
+      {
+        "type": "single",
+        "x": 647,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 247,
+        "y": 396
+      },
+      {
+        "type": "single",
+        "x": 549,
+        "y": 400
+      },
+      {
+        "type": "single",
+        "x": 154,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 649,
+        "y": 324
+      },
+      {
+        "type": "single",
+        "x": 301,
+        "y": 243
+      },
+      {
+        "type": "single",
+        "x": 503,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 164
+      },
+      {
+        "type": "single",
+        "x": 596,
+        "y": 161
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 103
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 399,
+        "y": 60
+      },
+      {
+        "x": 197,
+        "y": 117
+      },
+      {
+        "x": 603,
+        "y": 122
+      },
+      {
+        "x": 148,
+        "y": 279
+      },
+      {
+        "x": 649,
+        "y": 279
+      },
+      {
+        "x": 400,
+        "y": 443
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第88关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 54,
+        "x2": 253,
+        "y": 499
+      },
+      {
+        "type": "range",
+        "x1": 553,
+        "x2": 747,
+        "y": 501
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 463
+      },
+      {
+        "type": "range",
+        "x1": 97,
+        "x2": 350,
+        "y": 381
+      },
+      {
+        "type": "range",
+        "x1": 447,
+        "x2": 696,
+        "y": 376
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 301
+      },
+      {
+        "type": "range",
+        "x1": 149,
+        "x2": 304,
+        "y": 218
+      },
+      {
+        "type": "range",
+        "x1": 504,
+        "x2": 648,
+        "y": 218
+      },
+      {
+        "type": "single",
+        "x": 404,
+        "y": 141
+      },
+      {
+        "type": "single",
+        "x": 203,
+        "y": 82
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 79
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 202,
+        "y": 38
+      },
+      {
+        "x": 598,
+        "y": 42
+      },
+      {
+        "x": 402,
+        "y": 100
+      },
+      {
+        "x": 225,
+        "y": 177
+      },
+      {
+        "x": 577,
+        "y": 181
+      },
+      {
+        "x": 398,
+        "y": 260
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第89关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 102,
+        "y": 542
+      },
+      {
+        "type": "single",
+        "x": 299,
+        "y": 496
+      },
+      {
+        "type": "single",
+        "x": 500,
+        "y": 499
+      },
+      {
+        "type": "single",
+        "x": 697,
+        "y": 537
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 424
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 421
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 379
+      },
+      {
+        "type": "single",
+        "x": 100,
+        "y": 317
+      },
+      {
+        "type": "single",
+        "x": 704,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 302,
+        "y": 261
+      },
+      {
+        "type": "single",
+        "x": 497,
+        "y": 262
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 181
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 597,
+        "y": 120
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 58
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 397,
+        "y": 18
+      },
+      {
+        "x": 199,
+        "y": 77
+      },
+      {
+        "x": 598,
+        "y": 79
+      },
+      {
+        "x": 102,
+        "y": 278
+      },
+      {
+        "x": 701,
+        "y": 280
+      },
+      {
+        "x": 400,
+        "y": 341
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第90关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 51,
+        "x2": 150,
+        "y": 518
+      },
+      {
+        "type": "range",
+        "x1": 648,
+        "x2": 750,
+        "y": 520
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 502
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 348,
+        "y": 442
+      },
+      {
+        "type": "range",
+        "x1": 448,
+        "x2": 650,
+        "y": 441
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 379
+      },
+      {
+        "type": "range",
+        "x1": 99,
+        "x2": 303,
+        "y": 318
+      },
+      {
+        "type": "range",
+        "x1": 501,
+        "x2": 697,
+        "y": 320
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 263
+      },
+      {
+        "type": "range",
+        "x1": 200,
+        "x2": 398,
+        "y": 197
+      },
+      {
+        "type": "range",
+        "x1": 403,
+        "x2": 600,
+        "y": 198
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 200,
+        "y": 82
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 80
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 400,
+        "y": 80
+      },
+      {
+        "x": 202,
+        "y": 43
+      },
+      {
+        "x": 600,
+        "y": 40
+      },
+      {
+        "x": 198,
+        "y": 277
+      },
+      {
+        "x": 601,
+        "y": 277
+      },
+      {
+        "x": 403,
+        "y": 223
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第91关 花园草地",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 79,
+        "x2": 237,
+        "y": 448
+      },
+      {
+        "type": "range",
+        "x1": 558,
+        "x2": 721,
+        "y": 449
+      },
+      {
+        "type": "range",
+        "x1": 318,
+        "x2": 483,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 151,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 653,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 133
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 151,
+        "y": 161
+      },
+      {
+        "x": 647,
+        "y": 161
+      },
+      {
+        "x": 397,
+        "y": 89
+      },
+      {
+        "x": 103,
+        "y": 411
+      },
+      {
+        "x": 703,
+        "y": 409
+      },
+      {
+        "x": 401,
+        "y": 283
+      }
+    ],
+    "timeLimit": 75
+  },
+  {
+    "name": "第92关 客厅沙发",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 203,
+        "y": 483
+      },
+      {
+        "type": "range",
+        "x1": 600,
+        "x2": 751,
+        "y": 482
+      },
+      {
+        "type": "range",
+        "x1": 250,
+        "x2": 547,
+        "y": 378
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 282
+      },
+      {
+        "type": "single",
+        "x": 703,
+        "y": 282
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 178
+      },
+      {
+        "type": "single",
+        "x": 197,
+        "y": 123
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 120
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 99,
+        "y": 243
+      },
+      {
+        "x": 703,
+        "y": 237
+      },
+      {
+        "x": 400,
+        "y": 143
+      },
+      {
+        "x": 77,
+        "y": 443
+      },
+      {
+        "x": 723,
+        "y": 438
+      },
+      {
+        "x": 398,
+        "y": 343
+      }
+    ],
+    "timeLimit": 65
+  },
+  {
+    "name": "第93关 厨房瓷砖",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_squirrel",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 101,
+        "x2": 302,
+        "y": 502
+      },
+      {
+        "type": "range",
+        "x1": 503,
+        "x2": 702,
+        "y": 499
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 421
+      },
+      {
+        "type": "range",
+        "x1": 148,
+        "x2": 351,
+        "y": 340
+      },
+      {
+        "type": "range",
+        "x1": 453,
+        "x2": 648,
+        "y": 338
+      },
+      {
+        "type": "single",
+        "x": 78,
+        "y": 243
+      },
+      {
+        "type": "single",
+        "x": 717,
+        "y": 243
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 161
+      },
+      {
+        "type": "single",
+        "x": 249,
+        "y": 101
+      },
+      {
+        "type": "single",
+        "x": 551,
+        "y": 101
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 78,
+        "y": 199
+      },
+      {
+        "x": 722,
+        "y": 199
+      },
+      {
+        "x": 399,
+        "y": 121
+      },
+      {
+        "x": 199,
+        "y": 463
+      },
+      {
+        "x": 601,
+        "y": 462
+      },
+      {
+        "x": 403,
+        "y": 297
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第94关 后院泥坑",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_owl",
+      "enemy_hamster"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 123,
+        "y": 498
+      },
+      {
+        "type": "single",
+        "x": 680,
+        "y": 503
+      },
+      {
+        "type": "range",
+        "x1": 249,
+        "x2": 553,
+        "y": 447
+      },
+      {
+        "type": "single",
+        "x": 78,
+        "y": 382
+      },
+      {
+        "type": "single",
+        "x": 723,
+        "y": 382
+      },
+      {
+        "type": "range",
+        "x1": 198,
+        "x2": 598,
+        "y": 298
+      },
+      {
+        "type": "single",
+        "x": 149,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 648,
+        "y": 203
+      },
+      {
+        "type": "single",
+        "x": 403,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 152,
+        "y": 160
+      },
+      {
+        "x": 650,
+        "y": 158
+      },
+      {
+        "x": 401,
+        "y": 82
+      },
+      {
+        "x": 119,
+        "y": 342
+      },
+      {
+        "x": 680,
+        "y": 340
+      },
+      {
+        "x": 400,
+        "y": 257
+      }
+    ],
+    "timeLimit": 55
+  },
+  {
+    "name": "第95关 狗狗梦境",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_raccoon",
+      "enemy_hamster",
+      "enemy_squirrel",
+      "enemy_cat",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 103,
+        "y": 522
+      },
+      {
+        "type": "single",
+        "x": 697,
+        "y": 523
+      },
+      {
+        "type": "single",
+        "x": 251,
+        "y": 460
+      },
+      {
+        "type": "single",
+        "x": 549,
+        "y": 462
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 402
+      },
+      {
+        "type": "single",
+        "x": 150,
+        "y": 320
+      },
+      {
+        "type": "single",
+        "x": 651,
+        "y": 319
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 237
+      },
+      {
+        "type": "single",
+        "x": 503,
+        "y": 243
+      },
+      {
+        "type": "single",
+        "x": 397,
+        "y": 162
+      },
+      {
+        "type": "single",
+        "x": 200,
+        "y": 102
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 102
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 202,
+        "y": 59
+      },
+      {
+        "x": 603,
+        "y": 57
+      },
+      {
+        "x": 403,
+        "y": 121
+      },
+      {
+        "x": 150,
+        "y": 278
+      },
+      {
+        "x": 650,
+        "y": 283
+      },
+      {
+        "x": 398,
+        "y": 360
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第96关 霓虹迷宫",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_squirrel",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_bee"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 49,
+        "x2": 203,
+        "y": 519
+      },
+      {
+        "type": "range",
+        "x1": 599,
+        "x2": 751,
+        "y": 519
+      },
+      {
+        "type": "range",
+        "x1": 198,
+        "x2": 601,
+        "y": 441
+      },
+      {
+        "type": "range",
+        "x1": 100,
+        "x2": 303,
+        "y": 363
+      },
+      {
+        "type": "range",
+        "x1": 502,
+        "x2": 703,
+        "y": 359
+      },
+      {
+        "type": "range",
+        "x1": 247,
+        "x2": 547,
+        "y": 277
+      },
+      {
+        "type": "range",
+        "x1": 153,
+        "x2": 353,
+        "y": 202
+      },
+      {
+        "type": "range",
+        "x1": 447,
+        "x2": 647,
+        "y": 200
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 123
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 126,
+        "y": 321
+      },
+      {
+        "x": 673,
+        "y": 321
+      },
+      {
+        "x": 399,
+        "y": 79
+      },
+      {
+        "x": 400,
+        "y": 399
+      },
+      {
+        "x": 250,
+        "y": 158
+      },
+      {
+        "x": 550,
+        "y": 160
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第97关 高空跳跃",
+    "tile": "tile_wood",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl",
+      "enemy_bee",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_hamster",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 149,
+        "y": 517
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 482
+      },
+      {
+        "type": "single",
+        "x": 647,
+        "y": 518
+      },
+      {
+        "type": "single",
+        "x": 252,
+        "y": 400
+      },
+      {
+        "type": "single",
+        "x": 552,
+        "y": 399
+      },
+      {
+        "type": "single",
+        "x": 153,
+        "y": 322
+      },
+      {
+        "type": "single",
+        "x": 650,
+        "y": 318
+      },
+      {
+        "type": "single",
+        "x": 297,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 497,
+        "y": 242
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 157
+      },
+      {
+        "type": "single",
+        "x": 597,
+        "y": 160
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 98
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 399,
+        "y": 62
+      },
+      {
+        "x": 201,
+        "y": 118
+      },
+      {
+        "x": 598,
+        "y": 120
+      },
+      {
+        "x": 148,
+        "y": 281
+      },
+      {
+        "x": 649,
+        "y": 281
+      },
+      {
+        "x": 398,
+        "y": 439
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第98关 左右夹击",
+    "tile": "tile_mud",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_raccoon",
+      "enemy_cat"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 47,
+        "x2": 252,
+        "y": 500
+      },
+      {
+        "type": "range",
+        "x1": 547,
+        "x2": 747,
+        "y": 503
+      },
+      {
+        "type": "single",
+        "x": 399,
+        "y": 459
+      },
+      {
+        "type": "range",
+        "x1": 98,
+        "x2": 350,
+        "y": 379
+      },
+      {
+        "type": "range",
+        "x1": 453,
+        "x2": 703,
+        "y": 383
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 303
+      },
+      {
+        "type": "range",
+        "x1": 152,
+        "x2": 298,
+        "y": 222
+      },
+      {
+        "type": "range",
+        "x1": 501,
+        "x2": 651,
+        "y": 217
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 137
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 82
+      },
+      {
+        "type": "single",
+        "x": 599,
+        "y": 80
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 199,
+        "y": 39
+      },
+      {
+        "x": 601,
+        "y": 42
+      },
+      {
+        "x": 401,
+        "y": 99
+      },
+      {
+        "x": 223,
+        "y": 178
+      },
+      {
+        "x": 574,
+        "y": 178
+      },
+      {
+        "x": 402,
+        "y": 261
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第99关 终极挑战",
+    "tile": "tile_grass",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_raccoon",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_bee",
+      "enemy_owl"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "single",
+        "x": 100,
+        "y": 539
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 499
+      },
+      {
+        "type": "single",
+        "x": 498,
+        "y": 498
+      },
+      {
+        "type": "single",
+        "x": 702,
+        "y": 539
+      },
+      {
+        "type": "single",
+        "x": 198,
+        "y": 417
+      },
+      {
+        "type": "single",
+        "x": 601,
+        "y": 421
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 381
+      },
+      {
+        "type": "single",
+        "x": 99,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 702,
+        "y": 323
+      },
+      {
+        "type": "single",
+        "x": 303,
+        "y": 257
+      },
+      {
+        "type": "single",
+        "x": 502,
+        "y": 263
+      },
+      {
+        "type": "single",
+        "x": 398,
+        "y": 179
+      },
+      {
+        "type": "single",
+        "x": 201,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 598,
+        "y": 121
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 62
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 400,
+        "y": 18
+      },
+      {
+        "x": 199,
+        "y": 81
+      },
+      {
+        "x": 601,
+        "y": 78
+      },
+      {
+        "x": 99,
+        "y": 281
+      },
+      {
+        "x": 702,
+        "y": 278
+      },
+      {
+        "x": 402,
+        "y": 338
+      }
+    ],
+    "timeLimit": 45
+  },
+  {
+    "name": "第100关 黄金终章",
+    "tile": "tile_kitchen",
+    "bg": "bg_sky",
+    "enemyTypes": [
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel",
+      "enemy_owl",
+      "enemy_hamster",
+      "enemy_raccoon",
+      "enemy_bee",
+      "enemy_hedgehog",
+      "enemy_frog",
+      "enemy_cat",
+      "enemy_squirrel"
+    ],
+    "enemyCount": 18,
+    "platforms": [
+      {
+        "type": "ground",
+        "y": 584
+      },
+      {
+        "type": "range",
+        "x1": 50,
+        "x2": 149,
+        "y": 520
+      },
+      {
+        "type": "range",
+        "x1": 652,
+        "x2": 751,
+        "y": 521
+      },
+      {
+        "type": "single",
+        "x": 402,
+        "y": 500
+      },
+      {
+        "type": "range",
+        "x1": 151,
+        "x2": 348,
+        "y": 439
+      },
+      {
+        "type": "range",
+        "x1": 452,
+        "x2": 648,
+        "y": 438
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 378
+      },
+      {
+        "type": "range",
+        "x1": 98,
+        "x2": 298,
+        "y": 319
+      },
+      {
+        "type": "range",
+        "x1": 502,
+        "x2": 700,
+        "y": 321
+      },
+      {
+        "type": "single",
+        "x": 401,
+        "y": 262
+      },
+      {
+        "type": "range",
+        "x1": 201,
+        "x2": 398,
+        "y": 201
+      },
+      {
+        "type": "range",
+        "x1": 402,
+        "x2": 602,
+        "y": 202
+      },
+      {
+        "type": "single",
+        "x": 400,
+        "y": 119
+      },
+      {
+        "type": "single",
+        "x": 200,
+        "y": 78
+      },
+      {
+        "type": "single",
+        "x": 602,
+        "y": 78
+      }
+    ],
+    "letterPositions": [
+      {
+        "x": 399,
+        "y": 79
+      },
+      {
+        "x": 202,
+        "y": 40
+      },
+      {
+        "x": 601,
+        "y": 42
+      },
+      {
+        "x": 198,
+        "y": 280
+      },
+      {
+        "x": 601,
+        "y": 279
+      },
+      {
+        "x": 398,
+        "y": 219
+      }
+    ],
+    "timeLimit": 45
+  }
+]
